@@ -31,7 +31,6 @@ This might help
 https://devhints.io/qjs
 
 
-Q examples  https://gist.github.com/guptag/7205768
 
 
 
