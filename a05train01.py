@@ -170,9 +170,9 @@ class CircuitLayerBuilder():
             demo_builder = CircuitLayerBuilder(data_qubits = cirq.GridQubit.rect(4,1),
                                    readout=cirq.GridQubit(-1,-1))
 
-circuit = cirq.Circuit()
-demo_builder.add_layer(circuit, gate = cirq.XX, prefix='xx')
-SVGCircuit(circuit)
+            circuit = cirq.Circuit()
+            demo_builder.add_layer(circuit, gate = cirq.XX, prefix='xx')
+            SVGCircuit(circuit)
 
 
 
@@ -202,23 +202,23 @@ def create_quantum_model():
 
 
 
-model_circuit, model_readout = create_quantum_model()
+    model_circuit, model_readout = create_quantum_model()
 
 
 
 
 # Build the Keras model.
-model = tf.keras.Sequential([
-    # The input is the data-circuit, encoded as a tf.string
-    tf.keras.layers.Input(shape=(), dtype=tf.string),
-    # The PQC layer returns the expected value of the readout gate, range [-1,1].
-    tfq.layers.PQC(model_circuit, model_readout),
-])
+    model = tf.keras.Sequential([
+        # The input is the data-circuit, encoded as a tf.string
+        tf.keras.layers.Input(shape=(), dtype=tf.string),
+        # The PQC layer returns the expected value of the readout gate, range [-1,1].
+        tfq.layers.PQC(model_circuit, model_readout),
+    ])
 
 
 
-y_train_hinge = 2.0*y_train_nocon-1.0
-y_test_hinge = 2.0*y_test-1.0
+    y_train_hinge = 2.0*y_train_nocon-1.0
+    y_test_hinge = 2.0*y_test-1.0
 
 def hinge_accuracy(y_true, y_pred):
     y_true = tf.squeeze(y_true) > 0.0
@@ -228,16 +228,13 @@ def hinge_accuracy(y_true, y_pred):
     return tf.reduce_mean(result)
 
 
-model.compile(
-    loss=tf.keras.losses.Hinge(),
-    optimizer=tf.keras.optimizers.Adam(),
-    metrics=[hinge_accuracy])
+    model.compile(
+        loss=tf.keras.losses.Hinge(),
+        optimizer=tf.keras.optimizers.Adam(),
+        metrics=[hinge_accuracy])
 
 
-print(model.summary())
-
-
-
+    print(model.summary())
 
 
 
@@ -269,22 +266,25 @@ print(model.summary())
 
 
 
-EPOCHS = 3
-BATCH_SIZE = 32
 
-NUM_EXAMPLES = len(x_train_tfcirc)
 
-x_train_tfcirc_sub = x_train_tfcirc[:NUM_EXAMPLES]
-y_train_hinge_sub = y_train_hinge[:NUM_EXAMPLES]
 
-qnn_history = model.fit(
-      x_train_tfcirc_sub, y_train_hinge_sub,
-      batch_size=32,
-      epochs=EPOCHS,
-      verbose=1,
-      validation_data=(x_test_tfcirc, y_test_hinge))
+    EPOCHS = 3
+    BATCH_SIZE = 32
 
-qnn_results = model.evaluate(x_test_tfcirc, y_test)
+    NUM_EXAMPLES = len(x_train_tfcirc)
+
+    x_train_tfcirc_sub = x_train_tfcirc[:NUM_EXAMPLES]
+    y_train_hinge_sub = y_train_hinge[:NUM_EXAMPLES]
+
+    qnn_history = model.fit(
+        x_train_tfcirc_sub, y_train_hinge_sub,
+        batch_size=32,
+        epochs=EPOCHS,
+        verbose=1,
+        validation_data=(x_test_tfcirc, y_test_hinge))
+
+    qnn_results = model.evaluate(x_test_tfcirc, y_test)
 
 
 
