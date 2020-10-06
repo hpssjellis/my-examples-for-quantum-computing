@@ -4,11 +4,15 @@ image:
   
 tasks:
   - init: pip install tensorflow                                                &&
-          pip install tensorflowjs                                                 &&
-          pip install netron                                                       &&
+          pip install tensorflowjs                                              &&
+          pip install netron                                                    &&
           pip install tensorflow-quantum                                        &&
-          pip install matplotlib                                   &&
-          node set01.py                                                            &&
+          pip install matplotlib                                                &&
+          pip install seaborn                                                   &&
+          python set01.py                                                       &&
+          python data01.py                                                      &&
+          python encode01.py                                                    &&
+          python build01.py                                                     &&
           echo "Good luck"                                                                                                                          
 
               
