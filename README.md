@@ -24,3 +24,6 @@ First Issue. Q.js is a playground, can't seem to figure out how to make my own j
 This might help
 
 https://devhints.io/qjs
+
+
+Q examples  https://gist.github.com/guptag/7205768
