@@ -12,7 +12,8 @@ but first load the
 
 # Gitpod of this Github at https://gitpod.io/#github.com/hpssjellis/tfQuantumJs
 
-
+Note: As I don't know how  to add persistence to my data. Each section just keeps getting more complex. 
+The auto play when it loads is just going to do the last file A05train01.py
 
 
 Batch of tweets: 
