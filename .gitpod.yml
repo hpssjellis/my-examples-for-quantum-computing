@@ -9,10 +9,6 @@ tasks:
           pip install tensorflow-quantum                                        &&
           pip install matplotlib                                                &&
           pip install seaborn                                                   &&
-          python a01set01.py                                                    &&
-          python a02data01.py                                                   &&
-          python a03encode01.py                                                 &&
-          python a04build01.py                                                  &&
           python a05train01.py                                                  &&
           echo "Good luck"                                                                                                                          
 
