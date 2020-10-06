@@ -1,0 +1,11 @@
+image:
+  file: .gitpod.Dockerfile
+  
+  
+tasks:
+  - init: pip install tf-nightly                                                   &&
+          pip install tensorflowjs                                                 &&
+          pip install netron                                                       &&
+          echo "upload your model.json and model.weights.bin files here then run ./a01-convert-tfjs-arduino.sh"                                                                                                                          
+
+              
