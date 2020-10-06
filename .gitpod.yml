@@ -3,11 +3,12 @@ image:
   
   
 tasks:
-  - init: pip install -q tensorflow                                                &&
+  - init: pip install tensorflow                                                &&
           pip install tensorflowjs                                                 &&
           pip install netron                                                       &&
-          pip install -q tensorflow-quantum                                        &&
+          pip install tensorflow-quantum                                        &&
+          pip install matplotlib                                   &&
           node set01.py                                                            &&
-          echo "upload your model.json and model.weights.bin files here then run ./a01-convert-tfjs-arduino.sh"                                                                                                                          
+          echo "Good luck"                                                                                                                          
 
               
