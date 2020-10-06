@@ -8,6 +8,6 @@ import seaborn as sns
 import collections
 
 # visualization tools
-%matplotlib inline
+#%matplotlib inline
 import matplotlib.pyplot as plt
 from cirq.contrib.svg import SVGCircuit
