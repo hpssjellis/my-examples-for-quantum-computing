@@ -1,3 +1,20 @@
+import tensorflow as tf
+import tensorflow_quantum as tfq
+
+import cirq
+import sympy
+import numpy as np
+import seaborn as sns
+import collections
+
+# visualization tools
+#%matplotlib inline
+import matplotlib.pyplot as plt
+from cirq.contrib.svg import SVGCircuit
+
+
+
+
 (x_train, y_train), (x_test, y_test) = tf.keras.datasets.mnist.load_data()
 
 # Rescale the images from [0,255] to the [0.0,1.0] range.
@@ -70,7 +87,7 @@ def remove_contradicting(xs, ys):
   
   
   
-  x_train_nocon, y_train_nocon = remove_contradicting(x_train_small, y_train)
+ # x_train_nocon, y_train_nocon = remove_contradicting(x_train_small, y_train)
   
   
   
