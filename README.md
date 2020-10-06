@@ -32,3 +32,9 @@ https://devhints.io/qjs
 
 
 Q examples  https://gist.github.com/guptag/7205768
+
+
+
+https://raw.githubusercontent.com/stewdio/q.js/master/build/q.js
+
+https://raw.githubusercontent.com/stewdio/q.js
