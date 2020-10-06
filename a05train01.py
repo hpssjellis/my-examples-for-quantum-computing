@@ -87,7 +87,7 @@ def remove_contradicting(xs, ys):
   
   
   
- # x_train_nocon, y_train_nocon = remove_contradicting(x_train_small, y_train)
+   ## x_train_nocon, y_train_nocon = remove_contradicting(x_train_small, y_train)
   
   
   
@@ -100,11 +100,11 @@ def remove_contradicting(xs, ys):
 
 THRESHOLD = 0.5
 
-x_train_bin = np.array(x_train_nocon > THRESHOLD, dtype=np.float32)
+x_train_bin = np.array(x_train_small > THRESHOLD, dtype=np.float32)
 x_test_bin = np.array(x_test_small > THRESHOLD, dtype=np.float32)
 
 
-_ = remove_contradicting(x_train_bin, y_train_nocon)
+_ = remove_contradicting(x_train_bin, y_train)
 
 def convert_to_circuit(image):
     """Encode truncated classical image into quantum datapoint."""
