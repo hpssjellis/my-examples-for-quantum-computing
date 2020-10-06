@@ -8,6 +8,11 @@ Attepmt to combine TensorflowJS with Quantum Javascript
 ## This Repo website https://hpssjellis.github.io/tfQuantumJs/public/index.html  
 
 
+but first load the 
+
+# Gitpod of this Github at https://gitpod.io/#github.com/hpssjellis/tfQuantumJs
+
+
 
 
 Batch of tweets: 
