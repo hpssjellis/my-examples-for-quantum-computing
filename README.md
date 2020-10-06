@@ -31,9 +31,6 @@ https://www.tensorflow.org/quantum/tutorials/mnist
 
 First Issue. Q.js is a playground, can't seem to figure out how to make my own javascript pages
 
-This might help
-
-https://devhints.io/qjs
 
 
 
