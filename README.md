@@ -5,6 +5,11 @@ Attepmt to combine TensorflowJS with Quantum Javascript
 
 ## Tuesday Oct 6th, 2020. This will probably not work, but fun to try.
 
+## This Repo website https://hpssjellis.github.io/tfQuantumJs/public/index.html  
+
+
+
+
 Batch of tweets: 
 
 
@@ -16,7 +21,7 @@ Mnist Google collab
 https://www.tensorflow.org/quantum/tutorials/mnist
 
 
-## This website https://hpssjellis.github.io/tfQuantumJs/public/index.html  
+
 
 
 First Issue. Q.js is a playground, can't seem to figure out how to make my own javascript pages
