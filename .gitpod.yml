@@ -9,6 +9,7 @@ tasks:
           pip install tensorflow-quantum                                        &&
           pip install matplotlib                                                &&
           pip install seaborn                                                   &&
+          pip install collections                                               &&
           python set01.py                                                       &&
           python data01.py                                                      &&
           python encode01.py                                                    &&
