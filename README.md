@@ -37,4 +37,10 @@ Q examples  https://gist.github.com/guptag/7205768
 
 https://raw.githubusercontent.com/stewdio/q.js/master/build/q.js
 
-https://raw.githubusercontent.com/stewdio/q.js
+
+
+https://github.com/stewdio/q.js
+
+
+
+
