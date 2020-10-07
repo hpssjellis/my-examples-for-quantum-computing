@@ -31,6 +31,24 @@ https://www.tensorflow.org/quantum/tutorials/mnist
 https://colab.research.google.com/github/tensorflow/quantum/blob/master/docs/tutorials/mnist.ipynb
 
 
+IBM actual quantum computer 
+
+https://www.ibm.com/quantum-computing
+
+Symbols Explained
+https://quantum-computing.ibm.com/docs/iqx/operations-glossary
+
+
+Simulators:
+
+https://quantumjavascript.app/
+
+
+
+
+
+
+
 
 
 
