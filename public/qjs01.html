@@ -13,14 +13,16 @@
 							    								    
      let a = new Q.ComplexNumber( 1, 2 )
      a.multiply(a).isEqualTo( a.power( new Q.ComplexNumber( 2, 0 )))                                                               
-     document.getElementById('myDiv123').innerHTML  = 'a.rea: '+a.real
+     document.getElementById('myDiv123').innerHTML  = 'a.real: ' + a.real + ' a.imaginary: ' + a.imaginary + ', a.index:' + a.index								   
      console.log('a.multiply(a).isEqualTo( a.power( new Q.ComplexNumber( 2, 0 )))');
      console.log(a);
 								    
 								    
-     let j = Q.getRandomName$() 							    
-     console.log('j = Q.getRandomName$()')						    
+     let j = Q.getRandomName$(6) 							    
+     console.log('j = Q.getRandomName$(6)')						    
      console.log(j)
+								    
+								    
 								    
                                                                               
   } )() // end Async function
