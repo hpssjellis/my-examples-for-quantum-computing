@@ -13,9 +13,10 @@
 //     myQ.setName$( Q.getRandomName$ )
 //     myQ.evaluate$()                          
      // const myName =   await Q.getRandomName$   
-       Q.Matrix([ 1, 1 ],[ 0, 0 ])
-                                                                    
-     document.getElementById('myDiv123').innerHTML  = Q.Matrix([ 1, 1 ],[ 0, 0 ])
+    //   Q.Matrix([ 1, 1 ],[ 0, 0 ])
+     var a = new Q.ComplexNumber( 1, 2 )
+	   a.multiply(a).isEqualTo( a.power( new Q.ComplexNumber( 2, 0 )))                                                               
+     document.getElementById('myDiv123').innerHTML  = a
                                                                               
   } )() // end Async function
                                                                                                                                                                                                                                         
