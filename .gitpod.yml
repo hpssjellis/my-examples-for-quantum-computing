@@ -6,12 +6,12 @@ ports:
     onOpen: ignore 
   
 tasks:
-  - init: pip install tensorflow                                                &&
-          pip install tensorflowjs                                              &&
-          pip install netron                                                    &&
-          pip install tensorflow-quantum                                        &&
-          pip install matplotlib                                                &&
-          pip install seaborn                                                   &&
+  - init: pip3 install tensorflow                                                &&
+          pip3 install tensorflowjs                                              &&
+          pip3 install netron                                                    &&
+          pip3 install tensorflow-quantum                                        &&
+          pip3 install matplotlib                                                &&
+          pip3 install seaborn                                                   &&
           python a05train01.py                                                  &&
           git clone https://github.com/tensorflow/quantum.git                   &&
           echo "already ran python a05train01.py, try other ones"                                                                                                                          
