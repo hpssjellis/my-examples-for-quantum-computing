@@ -8,7 +8,7 @@ Attepmt to combine TensorflowJS with Quantum Javascript
 
 but first load the 
 
-# Gitpod of this Github at https://gitpod.io/#github.com/hpssjellis/tfQuantumJs
+# Gitpod of this Github at (right click open in new window, needs you to have a github login) https://gitpod.io/#github.com/hpssjellis/tfQuantumJs
 
 Note: This gitpod installs everything and autoloads the entire googleCollab in one file, which seems to work. The one file is A05train01.py
 
