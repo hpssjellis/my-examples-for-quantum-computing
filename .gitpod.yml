@@ -10,6 +10,7 @@ tasks:
           pip install matplotlib                                                &&
           pip install seaborn                                                   &&
           python a05train01.py                                                  &&
-          echo "Good luck"                                                                                                                          
+          git clone https://github.com/tensorflow/quantum.git                   &&
+          echo "already ran python a05train01.py, try other ones"                                                                                                                          
 
               
