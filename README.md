@@ -28,6 +28,10 @@ Mnist Google collab
 
 https://www.tensorflow.org/quantum/tutorials/mnist
 
+https://colab.research.google.com/github/tensorflow/quantum/blob/master/docs/tutorials/mnist.ipynb
+
+
+
 
 
 
