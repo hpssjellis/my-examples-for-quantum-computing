@@ -1,5 +1,5 @@
 # tfQuantumJs
-Attepmt to combine TensorflowJS with Quantum Javascript
+An Attempt to combine TensorflowJS with Quantum Javascript
 
 
 
