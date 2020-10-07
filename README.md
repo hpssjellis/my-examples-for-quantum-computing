@@ -70,3 +70,5 @@ https://github.com/stewdio/q.js
 
 
 
+![IBM-Symbols](ibm-symbols-and-names05.png)
+
