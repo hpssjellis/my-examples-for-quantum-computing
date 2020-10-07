@@ -217,7 +217,7 @@ def create_quantum_model():
 
 
 
-    y_train_hinge = 2.0*y_train_nocon-1.0
+    y_train_hinge = 2.0*y_train-1.0
     y_test_hinge = 2.0*y_test-1.0
 
 def hinge_accuracy(y_true, y_pred):
