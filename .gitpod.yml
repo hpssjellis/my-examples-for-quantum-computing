@@ -12,7 +12,6 @@ tasks:
           pip install tensorflow-quantum                                        &&
           pip install matplotlib                                                &&
           pip install seaborn                                                   &&
-          bash setup_pycalc.sh                                                  &&
           python a05train01.py                                                  &&
           git clone https://github.com/tensorflow/quantum.git                   &&
           echo "already ran python a05train01.py, try other ones"                                                                                                                          
