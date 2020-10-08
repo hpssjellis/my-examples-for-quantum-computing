@@ -95,5 +95,5 @@ https://github.com/stewdio/q.js
 
 
 Click on the image to be able to zoom  
-[![IBM-Symbols](ibm-symbols-and-names05.png)](./public/ibm-quantum-symbols.html)
+[![IBM-Symbols](ibm-symbols-and-names05.png)](https://hpssjellis.github.io/tfQuantumJs/public/ibm-quantum-symbols.html)
 
