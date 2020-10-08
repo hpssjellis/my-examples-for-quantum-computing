@@ -19,7 +19,7 @@ The gitpod installs everything and starts the mnist-quantum example.
 You can ctlr-C to stop it if you want.
 It or other examples when made can be run with
 ```
-python3 a05train01.py
+python3 a01-mnist-small.py
 
 ```
 For simplicity line 200 has been commented out for a shorter number of batchs = 3 change it back for the longer run
