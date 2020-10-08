@@ -55,6 +55,10 @@ print(y_train[0])
 
 plt.imshow(x_train[0, :, :, 0])
 plt.colorbar()
+#plt.show()
+plt.draw()
+plt.pause(0.001)
+input("Open Ports --> Open Preview or Browser --> push enter to continue")
 
 x_train_small = tf.image.resize(x_train, (4,4)).numpy()
 x_test_small = tf.image.resize(x_test, (4,4)).numpy()
@@ -63,6 +67,10 @@ print(y_train[0])
 
 plt.imshow(x_train_small[0,:,:,0], vmin=0, vmax=1)
 plt.colorbar()
+#plt.show()
+plt.draw()
+plt.pause(0.001)
+input("Open Ports --> Open Preview or Browser --> push enter to continue")
 
 def remove_contradicting(xs, ys):
     mapping = collections.defaultdict(set)
