@@ -10,9 +10,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-!pip install tensorflow==2.3.1
+#pip install tensorflow==2.3.1
 
-!pip install tensorflow-quantum
+#pip install tensorflow-quantum
 
 import tensorflow as tf
 import tensorflow_quantum as tfq
