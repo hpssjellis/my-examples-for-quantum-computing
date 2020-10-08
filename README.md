@@ -29,6 +29,21 @@ https://github.com/hpssjellis/tfQuantumJs/blob/53f6629c36e4bc939aa960302a4db463f
 
 Having some issues getting matlablib to make plots while running.
 
+Testing to see if these work: Mnist full should take about 20 min or more.
+```
+python3 a02-mnist-full.py
+
+```
+Testing
+
+```
+python3 a03-gradients.py
+python3 a04-hello-many-worlds.py
+python3 a05-qcnn.py
+
+```
+
+
 To make the above python program I converted the ipython notebook by opening up the 
 folders quantum --> docs --> tutorials and typing
 
