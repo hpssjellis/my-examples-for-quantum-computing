@@ -277,5 +277,5 @@ fair_nn_accuracy = fair_nn_results[1]
 ##ax = sns.barplot(x="day", y="total_bill", data=tips)
 
 
-
-sns.barplot(["Quantum", "Classical, full", "Classical, fair"], data=[qnn_accuracy, cnn_accuracy, fair_nn_accuracy])
+## this is not working
+#sns.barplot(["Quantum", "Classical, full", "Classical, fair"],[qnn_accuracy, cnn_accuracy, fair_nn_accuracy])
