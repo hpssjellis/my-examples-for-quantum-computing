@@ -22,6 +22,11 @@ It or other examples when made can be run with
 python a05train01.py
 
 ```
+For simplicity line 200 has been commented out for a shorter number of batchs = 3 change it back for the longer run
+
+https://github.com/hpssjellis/tfQuantumJs/blob/53f6629c36e4bc939aa960302a4db463f903ebc3/a05train01.py#L200-L201
+
+
 Having some issues getting matlablib to make plots while running.
 
 To make the above python program I converted the ipython notebook by opening up the 
