@@ -45,7 +45,7 @@ python3 a04-hello-many-worlds.py
 python3 a05-qcnn.py
 
 ```
-Note: a tf.plot command is not working, for the last 2 programs hello and qcnn. I will be looking into it.
+Note: a tf.keras.utils.plot_model command is not working, for the last 2 programs hello and qcnn. I will be looking into it.
 
 
 
