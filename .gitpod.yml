@@ -19,7 +19,7 @@ tasks:
           echo " "                                                               &&
           python3 a01-mnist-small.py                                             &&
           echo "Mnist Quantum done!, by running:"                                &&
-          echo "python3 a05train01.py"                                           &&
+          echo "python3 a01-mnist-small.py"                                      &&
           echo "Try other ones if ready"                                                                                                                          
 
               
