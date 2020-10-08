@@ -21,8 +21,10 @@ import cirq
 import sympy
 import numpy as np
 
-# visualization tools
-%matplotlib inline
+# visualization tools#%matplotlib inline
+import matplotlib
+matplotlib.use('TkAgg')
+
 import matplotlib.pyplot as plt
 from cirq.contrib.svg import SVGCircuit
 
