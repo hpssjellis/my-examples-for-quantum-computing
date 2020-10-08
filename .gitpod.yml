@@ -18,7 +18,8 @@ tasks:
           echo "Finished installing now running mnist Quantum"                   &&
           echo " "                                                               &&
           python3 a05train01.py                                                  &&
-          echo "Mnist Quantum done!"                                             &&
-          echo "already ran python3 a05train01.py, try other ones"                                                                                                                          
+          echo "Mnist Quantum done!, by running:"                                &&
+          echo "python3 a05train01.py"                                           &&
+          echo "Try other ones if ready"                                                                                                                          
 
               
