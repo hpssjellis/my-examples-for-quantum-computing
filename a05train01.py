@@ -197,7 +197,8 @@ print(model.summary())
 EPOCHS = 3
 BATCH_SIZE = 32
 
-NUM_EXAMPLES = len(x_train_tfcirc)
+##NUM_EXAMPLES = len(x_train_tfcirc)
+NUM_EXAMPLES = 3   ## make it short for testing to see if it works
 
 x_train_tfcirc_sub = x_train_tfcirc[:NUM_EXAMPLES]
 y_train_hinge_sub = y_train_hinge[:NUM_EXAMPLES]
@@ -270,5 +271,11 @@ qnn_accuracy = qnn_results[1]
 cnn_accuracy = cnn_results[1]
 fair_nn_accuracy = fair_nn_results[1]
 
-sns.barplot(["Quantum", "Classical, full", "Classical, fair"],
-            [qnn_accuracy, cnn_accuracy, fair_nn_accuracy])
+
+##sns.set_theme(style="whitegrid")
+##tips = sns.load_dataset("tips")
+##ax = sns.barplot(x="day", y="total_bill", data=tips)
+
+
+
+sns.barplot(["Quantum", "Classical, full", "Classical, fair"], data=[qnn_accuracy, cnn_accuracy, fair_nn_accuracy])
