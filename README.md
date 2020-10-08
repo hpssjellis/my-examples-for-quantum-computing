@@ -8,9 +8,34 @@ An Attempt to combine TensorflowJS with Quantum Javascript
 
 but first load the 
 
-# Gitpod of this Github at (right click open in new window, needs you to have a github login) https://gitpod.io/#github.com/hpssjellis/tfQuantumJs
+## Gitpod of this Github at (right click open in new window, needs you to have a github login) https://gitpod.io/#github.com/hpssjellis/tfQuantumJs
 
 Note: This gitpod installs everything and autoloads the entire googleCollab in one file, which seems to work. The one file is A05train01.py
+
+
+# Installation
+
+The gitpod installs everything and starts the mnist-quantum example.
+You can ctlr-C to stop it if you want.
+It or other examples when made can be run with
+```
+python a05train01.py
+
+```
+Having some issues getting matlablib to make plots while running.
+
+To make the above python program I converted the ipython notebook by opening up the 
+folders quantum --> docs --> tutorials and typing
+
+```
+
+jupyter nbconvert --to script mnist.ipynb
+
+```
+It will output mnist.txt and you can change it to mnist.py. A few of the first commands need to be changed.
+
+
+
 
 
 
