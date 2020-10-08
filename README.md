@@ -42,6 +42,9 @@ python3 a04-hello-many-worlds.py
 python3 a05-qcnn.py
 
 ```
+Note: To see the graphs which kind of work, you need to open the ports tab and click preview or browser. I prefer browser. One glitvh that I am working on
+is that the matplotlib graphs pause the program untl "x"ed out of. I will try to get multiple graphs.
+
 
 
 To make the above python program I converted the ipython notebook by opening up the 
