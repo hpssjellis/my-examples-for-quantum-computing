@@ -6,6 +6,9 @@ An Attempt to combine TensorflowJS with Quantum Javascript
 ## Tuesday Oct 6th, 2020. This will probably not work, but fun to try.
 
 
+## Thursday Oct 8th, 2020
+I didn't get TensorflowJS working with Tensorflow Quantum, but I did get Tensorflow Quantum working in a gitpod.
+
 but first load the 
 
 ## Gitpod of this Github at (right click open in new window, needs you to have a github login) https://gitpod.io/#github.com/hpssjellis/tfQuantumJs
