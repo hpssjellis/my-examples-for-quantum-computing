@@ -1,6 +1,7 @@
 import numpy as np
+
 import matplotlib
-matplotlib.use('Agg')
+matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
 
 fig = plt.figure(figsize=(5, 4), dpi=72)
