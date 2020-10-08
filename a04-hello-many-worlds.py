@@ -165,7 +165,10 @@ plt.plot(history.history['loss'])
 plt.title("Learning to Control a Qubit")
 plt.xlabel("Iterations")
 plt.ylabel("Error in Control")
-plt.show()
+#plt.show()
+plt.draw()
+plt.pause(0.001)
+input("Open Ports --> Open Preview or Browser --> push enter to continue")
 
 def check_error(command_values, desired_values):
   """Based on the value in `command_value` see how well you could prepare
@@ -248,6 +251,9 @@ plt.plot(history.history['loss'])
 plt.title("Learning to Control a Qubit")
 plt.xlabel("Iterations")
 plt.ylabel("Error in Control")
-plt.show()
+#plt.show()
+plt.draw()
+plt.pause(0.001)
+input("Open Ports --> Open Preview or Browser --> push enter to continue")
 
 controller.predict(np.array([0,1]))
