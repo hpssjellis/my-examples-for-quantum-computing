@@ -13,4 +13,6 @@ tasks:
              pip3 install tensorflow-quantum                                        &&
              pip3 install matplotlib                                                &&
              pip3 install seaborn                                                   &&
-             git clone https://github.com/tensorflow/quantum.git                    
+             git clone https://github.com/tensorflow/quantum.git                    &&
+             python3 a01-mnist-small.py
+             
