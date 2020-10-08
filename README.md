@@ -13,7 +13,7 @@ but first load the
 
 ## Gitpod of this Github at (right click open in new window, needs you to have a github login) https://gitpod.io/#github.com/hpssjellis/tfQuantumJs
 
-Note: This gitpod installs everything and autoloads the entire googleCollab in one file, which seems to work. The one file is A05train01.py
+Note: This gitpod installs everything and autoloads the entire googleCollab in one file, which seems to work. The one file is called a01-mnist-small.py
 
 
 # Installation
@@ -45,8 +45,7 @@ python3 a04-hello-many-worlds.py
 python3 a05-qcnn.py
 
 ```
-Note: To see the graphs which kind of work, you need to open the ports tab and click preview or browser. I prefer browser. One glitvh that I am working on
-is that the matplotlib graphs pause the program untl "x"ed out of. I will try to get multiple graphs.
+Note: a tf.plot command is not working, for the last 2 programs hello and qcnn. I will be looking into it.
 
 
 
