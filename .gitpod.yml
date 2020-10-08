@@ -13,8 +13,12 @@ tasks:
           pip3 install tensorflow-quantum                                        &&
           pip3 install matplotlib                                                &&
           pip3 install seaborn                                                   &&
-          python3 a05train01.py                                                   &&
           git clone https://github.com/tensorflow/quantum.git                    &&
+          echo " "                                                               &&
+          echo "Finished installing now running mnist Quantum"                   &&
+          echo " "                                                               &&
+          python3 a05train01.py                                                  &&
+          echo "Mnist Quantum done!"                                             &&
           echo "already ran python3 a05train01.py, try other ones"                                                                                                                          
 
               
