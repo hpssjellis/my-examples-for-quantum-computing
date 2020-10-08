@@ -91,6 +91,10 @@ plt.ylabel('$f(x)$')
 plt.plot(input_points, exact_outputs, label='Analytic')
 plt.plot(input_points, imperfect_outputs, label='Sampled')
 plt.legend()
+#plt.show()
+plt.draw()
+plt.pause(0.001)
+input("Open Ports --> Open Preview or Browser --> push enter to continue")
 
 # Gradients are a much different story.
 values_tensor = tf.convert_to_tensor(input_points)
@@ -119,6 +123,10 @@ plt.ylabel('$f^{\'}(x)$')
 plt.plot(input_points, analytic_finite_diff_gradients, label='Analytic')
 plt.plot(input_points, sampled_finite_diff_gradients, label='Sampled')
 plt.legend()
+#plt.show()
+plt.draw()
+plt.pause(0.001)
+input("Open Ports --> Open Preview or Browser --> push enter to continue")
 
 # A smarter differentiation scheme.
 gradient_safe_sampled_expectation = tfq.layers.SampledExpectation(
@@ -141,6 +149,10 @@ plt.ylabel('$f^{\'}(x)$')
 plt.plot(input_points, analytic_finite_diff_gradients, label='Analytic')
 plt.plot(input_points, sampled_param_shift_gradients, label='Sampled')
 plt.legend()
+#plt.show()
+plt.draw()
+plt.pause(0.001)
+input("Open Ports --> Open Preview or Browser --> push enter to continue")
 
 pauli_z = cirq.Z(qubit)
 pauli_z
@@ -299,6 +311,10 @@ plt.subplot(1, 2, 2)
 plt.title('My Gradient')
 plt.plot(input_points, my_gradients.numpy())
 plt.xlabel('x')
+#plt.show()
+plt.draw()
+plt.pause(0.001)
+input("Open Ports --> Open Preview or Browser --> push enter to continue")
 
 # Create a noisy sample based expectation op.
 expectation_sampled = tfq.get_sampled_expectation_op(
