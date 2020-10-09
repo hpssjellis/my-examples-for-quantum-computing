@@ -14,7 +14,6 @@ tasks:
              pip3 install matplotlib                                                &&
              pip3 install seaborn                                                   &&
              pip3 install pydot                                                     &&
-             pip3 install graphviz                                                   &&
              git clone https://github.com/tensorflow/quantum.git                    &&
              python3 a01-mnist-small.py
              
