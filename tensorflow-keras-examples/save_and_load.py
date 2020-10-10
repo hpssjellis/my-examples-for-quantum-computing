@@ -32,7 +32,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 # DEALINGS IN THE SOFTWARE.
 
-!pip install pyyaml h5py  # Required to save models in HDF5 format
+pip3 install pyyaml h5py  # Required to save models in HDF5 format
 
 import os
 
@@ -88,7 +88,7 @@ model.fit(train_images,
 # These warnings (and similar warnings throughout this notebook)
 # are in place to discourage outdated usage, and can be ignored.
 
-!ls {checkpoint_dir}
+ls {checkpoint_dir}
 
 # Create a basic model instance
 model = create_model()
@@ -129,7 +129,7 @@ model.fit(train_images,
           validation_data=(test_images,test_labels),
           verbose=0)
 
-!ls {checkpoint_dir}
+ls {checkpoint_dir}
 
 latest = tf.train.latest_checkpoint(checkpoint_dir)
 latest
@@ -162,14 +162,14 @@ model = create_model()
 model.fit(train_images, train_labels, epochs=5)
 
 # Save the entire model as a SavedModel.
-!mkdir -p saved_model
+mkdir -p saved_model
 model.save('saved_model/my_model') 
 
 # my_model directory
-!ls saved_model
+ls saved_model
 
 # Contains an assets folder, saved_model.pb, and variables folder.
-!ls saved_model/my_model
+ls saved_model/my_model
 
 new_model = tf.keras.models.load_model('saved_model/my_model')
 
