@@ -123,7 +123,7 @@ horsepower_model.compile(
     optimizer=tf.optimizers.Adam(learning_rate=0.1),
     loss='mean_absolute_error')
 
-%%time
+#%%time
 history = horsepower_model.fit(
     train_features['Horsepower'], train_labels,
     epochs=100,
@@ -186,7 +186,7 @@ linear_model.compile(
     optimizer=tf.optimizers.Adam(learning_rate=0.1),
     loss='mean_absolute_error')
 
-%%time
+#%%time
 history = linear_model.fit(
     train_features, train_labels, 
     epochs=100,
@@ -216,7 +216,7 @@ dnn_horsepower_model = build_and_compile_model(horsepower_normalizer)
 
 dnn_horsepower_model.summary()
 
-%%time
+#%%time
 history = dnn_horsepower_model.fit(
     train_features['Horsepower'], train_labels,
     validation_split=0.2,
@@ -236,7 +236,7 @@ test_results['dnn_horsepower_model'] = dnn_horsepower_model.evaluate(
 dnn_model = build_and_compile_model(normalizer)
 dnn_model.summary()
 
-%%time
+#%%time
 history = dnn_model.fit(
     train_features, train_labels,
     validation_split=0.2,
