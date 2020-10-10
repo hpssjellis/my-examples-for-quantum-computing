@@ -33,7 +33,12 @@
 # DEALINGS IN THE SOFTWARE.
 
 # Use seaborn for pairplot
-!pip install -q seaborn
+#pip install -q seaborn
+
+# visualization tools
+#%matplotlib inline
+import matplotlib
+matplotlib.use('TkAgg')
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -139,6 +144,10 @@ def plot_loss(history):
   plt.ylabel('Error [MPG]')
   plt.legend()
   plt.grid(True)
+  #plt.show()
+  plt.draw()
+  plt.pause(0.001)
+  input("Open Ports --> Open Preview or Browser --> push enter to continue")
 
 plot_loss(history)
 
@@ -157,6 +166,10 @@ def plot_horsepower(x, y):
   plt.xlabel('Horsepower')
   plt.ylabel('MPG')
   plt.legend()
+  #plt.show()
+  plt.draw()
+  plt.pause(0.001)
+  input("Open Ports --> Open Preview or Browser --> push enter to continue")
 
 plot_horsepower(x,y)
 
@@ -245,12 +258,20 @@ lims = [0, 50]
 plt.xlim(lims)
 plt.ylim(lims)
 _ = plt.plot(lims, lims)
+#plt.show()
+plt.draw()
+plt.pause(0.001)
+input("Open Ports --> Open Preview or Browser --> push enter to continue")
 
 
 error = test_predictions - test_labels
 plt.hist(error, bins=25)
 plt.xlabel('Prediction Error [MPG]')
 _ = plt.ylabel('Count')
+#plt.show()
+plt.draw()
+plt.pause(0.001)
+input("Open Ports --> Open Preview or Browser --> push enter to continue")
 
 dnn_model.save('dnn_model')
 
