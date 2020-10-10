@@ -1,7 +1,15 @@
 To get going with quantum I need to remind myself about regular tensorflow (I am used to tensorflowJS). Here are some examples.
 
 
-Once again I am just taking the regular example and  converting them to pyython using 
+Once again I am just taking the regular examples
+
+These ones are from https://github.com/tensorflow/docs/tree/master/site/en/tutorials/keras using
+
+```
+git clone https://github.com/tensorflow/docs/tree/master/site/en/tutorials/keras
+
+```
+Then converted to python using
 
 ```
 jupyter nbconvert --to script fileName.ipynb
