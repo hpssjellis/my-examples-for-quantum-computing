@@ -39,15 +39,21 @@ from tensorflow.keras import regularizers
 
 print(tf.__version__)
 
-!pip install git+https://github.com/tensorflow/docs
+pip3 install git+https://github.com/tensorflow/docs
 
 import tensorflow_docs as tfdocs
 import tensorflow_docs.modeling
 import tensorflow_docs.plots
 
-from  IPython import display
-from matplotlib import pyplot as plt
+#from  IPython import display
+#from matplotlib import pyplot as plt
 
+# visualization tools
+#%matplotlib inline
+import matplotlib
+matplotlib.use('TkAgg')
+
+import matplotlib.pyplot as plt
 import numpy as np
 
 import pathlib
@@ -106,6 +112,11 @@ plt.ylim([0,max(plt.ylim())])
 plt.xlabel('Epoch')
 _ = plt.ylabel('Learning Rate')
 
+#plt.show()
+plt.draw()
+plt.pause(0.001)
+input("Open Ports --> Open Preview or Browser --> push enter to continue")
+
 
 def get_callbacks(name):
   return [
@@ -147,6 +158,11 @@ size_histories['Tiny'] = compile_and_fit(tiny_model, 'sizes/Tiny')
 plotter = tfdocs.plots.HistoryPlotter(metric = 'binary_crossentropy', smoothing_std=10)
 plotter.plot(size_histories)
 plt.ylim([0.5, 0.7])
+#plt.show()
+plt.draw()
+plt.pause(0.001)
+input("Open Ports --> Open Preview or Browser --> push enter to continue")
+
 
 small_model = tf.keras.Sequential([
     # `input_shape` is only required here so that `.summary` works.
@@ -181,6 +197,10 @@ a = plt.xscale('log')
 plt.xlim([5, max(plt.xlim())])
 plt.ylim([0.5, 0.7])
 plt.xlabel("Epochs [Log Scale]")
+#plt.show()
+plt.draw()
+plt.pause(0.001)
+input("Open Ports --> Open Preview or Browser --> push enter to continue")
 
 #docs_infra: no_execute
 
@@ -217,6 +237,10 @@ regularizer_histories['l2'] = compile_and_fit(l2_model, "regularizers/l2")
 
 plotter.plot(regularizer_histories)
 plt.ylim([0.5, 0.7])
+#plt.show()
+plt.draw()
+plt.pause(0.001)
+input("Open Ports --> Open Preview or Browser --> push enter to continue")
 
 result = l2_model(features)
 regularization_loss=tf.add_n(l2_model.losses)
@@ -237,6 +261,10 @@ regularizer_histories['dropout'] = compile_and_fit(dropout_model, "regularizers/
 
 plotter.plot(regularizer_histories)
 plt.ylim([0.5, 0.7])
+#plt.show()
+plt.draw()
+plt.pause(0.001)
+input("Open Ports --> Open Preview or Browser --> push enter to continue")
 
 combined_model = tf.keras.Sequential([
     layers.Dense(512, kernel_regularizer=regularizers.l2(0.0001),
@@ -258,6 +286,10 @@ regularizer_histories['combined'] = compile_and_fit(combined_model, "regularizer
 
 plotter.plot(regularizer_histories)
 plt.ylim([0.5, 0.7])
+#plt.show()
+plt.draw()
+plt.pause(0.001)
+input("Open Ports --> Open Preview or Browser --> push enter to continue")
 
 display.IFrame(
     src="https://tensorboard.dev/experiment/fGInKDo8TXes1z7HQku9mw/#scalars&_smoothingWeight=0.97",
