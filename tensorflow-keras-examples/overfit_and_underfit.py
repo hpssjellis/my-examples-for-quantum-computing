@@ -39,7 +39,7 @@ from tensorflow.keras import regularizers
 
 print(tf.__version__)
 
-pip3 install git+https://github.com/tensorflow/docs
+#pip3 install git+https://github.com/tensorflow/docs    # do on the comand line
 
 import tensorflow_docs as tfdocs
 import tensorflow_docs.modeling
