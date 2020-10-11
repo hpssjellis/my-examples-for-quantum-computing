@@ -128,3 +128,10 @@ Click on the image to be able to zoom
 
 Something interesting at  https://github.com/google/jax but I have not yet found out if JAX will be useful for me.
 
+```
+pip3 install jax
+
+git clone https://github.com/google/jax.git
+
+```
+
