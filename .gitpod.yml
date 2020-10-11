@@ -14,6 +14,5 @@ tasks:
              pip3 install matplotlib                                                &&
              pip3 install seaborn pyyaml h5py                                       &&
              git clone https://github.com/tensorflow/quantum.git                    &&
-             git clone https://github.com/google/jax.git                            &&
              python3 a01-mnist-small.py
              
