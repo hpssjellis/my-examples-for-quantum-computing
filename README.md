@@ -74,6 +74,29 @@ Batch of tweets:
 https://twitter.com/rocksetta/status/1312604679017099271?s=19
 
 
+
+##  Resources
+
+
+# dwave
+dwavesystems  
+https://www.dwavesys.com/
+
+Login to dWave Leap  
+https://cloud.dwavesys.com/leap/login/
+ 
+dWave Community  
+https://support.dwavesys.com/hc/en-us/community/topics
+
+
+
+
+
+# TFQ Tensorflow Quantum
+
+https://www.tensorflow.org/quantum/overview
+
+
 Mnist Google collab
 
 https://www.tensorflow.org/quantum/tutorials/mnist
@@ -81,7 +104,10 @@ https://www.tensorflow.org/quantum/tutorials/mnist
 https://colab.research.google.com/github/tensorflow/quantum/blob/master/docs/tutorials/mnist.ipynb
 
 
-IBM actual quantum computer 
+
+# IBM Quantum
+
+IBM actual quantum computer. This is live and easy to use!!! 
 
 https://www.ibm.com/quantum-computing
 
