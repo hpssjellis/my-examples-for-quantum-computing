@@ -2,6 +2,19 @@ Sometimes best just to start by finding lots of examples
 
 
 
+
+# Pennylane by Xanada
+
+https://discuss.pennylane.ai/
+
+https://discuss.pennylane.ai/search?q=keras
+
+
+
+
+
+# other
+
 https://github.com/tensorflow/quantum/issues/334
 
 
@@ -22,6 +35,7 @@ https://github.com/XanaduAI/quantum-neural-networks
 an actual nn with keras
 
 https://github.com/olgOk/42RoboticsAndAI-Quantum-Circuits-Tensorflow-Keras/blob/master/nn_with_keras.py
+
 
 
 another keras
