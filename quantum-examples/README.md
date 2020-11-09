@@ -9,6 +9,10 @@ https://discuss.pennylane.ai/
 
 https://discuss.pennylane.ai/search?q=keras
 
+my question
+
+https://discuss.pennylane.ai/t/simple-xor-quantum-to-keras/669
+
 
 
 
