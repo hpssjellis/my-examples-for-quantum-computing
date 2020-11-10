@@ -15,5 +15,6 @@ tasks:
              pip3 install seaborn pyyaml h5py                                       &&
              git clone https://github.com/tensorflow/quantum.git                    &&
              python3 -m pip install pennylane                                       &&
+             pip3 install pennylane-cirq                                            &&
              python3 a01-mnist-small.py
              
