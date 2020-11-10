@@ -5,6 +5,11 @@ Sometimes best just to start by finding lots of examples
 
 # Pennylane by Xanada
 
+
+API keras  https://pennylane.readthedocs.io/en/stable/code/api/pennylane.qnn.KerasLayer.html
+
+keras example   https://t.co/ATmwTYEZcX?amp=1
+
 https://discuss.pennylane.ai/
 
 https://discuss.pennylane.ai/search?q=keras
