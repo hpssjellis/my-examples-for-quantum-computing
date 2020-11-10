@@ -11,7 +11,7 @@ I didn't get TensorflowJS working with Tensorflow Quantum, but I did get Tensorf
 
 but first load the 
 
-## Gitpod of this Github at (right click open in new window, needs you to have a github login) https://gitpod.io/#github.com/hpssjellis/tfQuantumJs
+## Gitpod of this Github at (right click open in new window, needs you to have a github login) https://gitpod.io/#github.com/hpssjellis/my-examples-for-quantum-computing
 
 Note: This gitpod installs everything and autoloads the entire googleCollab in one file, which seems to work. The one file is called a01-mnist-small.py
 
@@ -27,7 +27,7 @@ python3 a01-mnist-small.py
 ```
 For simplicity line 200 has been commented out for a shorter number of batchs = 3 change it back for the longer run
 
-https://github.com/hpssjellis/tfQuantumJs/blob/53f6629c36e4bc939aa960302a4db463f903ebc3/a05train01.py#L200-L201
+
 
 
 Having some issues getting matlablib to make plots while running.
