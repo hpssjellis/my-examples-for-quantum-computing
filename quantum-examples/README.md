@@ -2,6 +2,11 @@ Sometimes best just to start by finding lots of examples
 
 
 
+# examples
+
+presently the only one working sort of is single-qbit01.py 
+
+
 
 # Pennylane by Xanada
 
