@@ -11,7 +11,7 @@ tasks:
              pip3 install tensorflowjs                                              &&
              pip3 install netron                                                    &&
              pip3 install tensorflow-quantum                                        &&
-             pip3 install matplotlib                                                &&
+             pip3 install matplotlib dwave-ocean-sdk                                &&
              pip3 install seaborn pyyaml h5py                                       &&
              git clone https://github.com/tensorflow/quantum.git                    &&
              pip3 install pennylane --upgrade                                       &&
