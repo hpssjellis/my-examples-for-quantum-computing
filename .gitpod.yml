@@ -14,7 +14,8 @@ tasks:
              pip3 install matplotlib                                                &&
              pip3 install seaborn pyyaml h5py                                       &&
              git clone https://github.com/tensorflow/quantum.git                    &&
-             python3 -m pip install pennylane                                       &&
-             pip3 install pennylane-cirq                                            &&
-             python3 a01-mnist-small.py
-             
+             pip3 install pennylane --upgrade                                       &&
+             pip3 install pennylane-cirq autograd "tensorflow>=1.13.2"              &&
+             pip3 install pennylane-sf pennylane-qiskit pennylane-cirq              &&
+             pip3 install pennylane-forest pennylane-qsharp                         &&
+             pip3 install torch==1.7.0+cpu torchvision==0.8.1+cpu torchaudio==0.7.0 -f https://download.pytorch.org/whl/torch_stable.html
