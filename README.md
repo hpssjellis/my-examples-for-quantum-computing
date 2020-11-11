@@ -1,31 +1,37 @@
-# tfQuantumJs
-An Attempt to combine TensorflowJS with Quantum Javascript
+# My examples of Quantum Computing
 
 
-
-## Tuesday Oct 6th, 2020. This will probably not work, but fun to try.
-
-
-## Thursday Oct 8th, 2020
-I didn't get TensorflowJS working with Tensorflow Quantum, but I did get Tensorflow Quantum working in a gitpod.
+This github is at  https://github.com/hpssjellis/my-examples-for-quantum-computing
 
 but first load the 
 
-## Gitpod of this Github at (right click open in new window, needs you to have a github login) https://gitpod.io/#github.com/hpssjellis/my-examples-for-quantum-computing
+## Gitpod of this Github 
+(right click open in new window, needs you to have a github login) 
+https://gitpod.io/#github.com/hpssjellis/my-examples-for-quantum-computing
 
-Note: This gitpod installs everything and autoloads the entire googleCollab in one file, which seems to work. The one file is called a01-mnist-small.py
+
+
+Note: This gitpod installs everything
+
+or
+
+Load this pre-made Gitpod generated on Nov 10th, 2020. Use the above link if this one does not work.
+
+
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#snapshot/3fe9758c-4d20-434d-84ce-20a2f1a0006e)
+
 
 
 # Installation
 
-The gitpod installs everything and starts the mnist-quantum example.
-You can ctlr-C to stop it if you want.
-It or other examples when made can be run with
+run the examples by going to the apropriate folder and typing "python3 file.py" such as
+
 ```
 python3 a01-mnist-small.py
 
 ```
-For simplicity line 200 has been commented out for a shorter number of batchs = 3 change it back for the longer run
+
 
 
 
