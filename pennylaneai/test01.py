@@ -1,4 +1,6 @@
 import pennylane as qml
+import numpy as np
+
 
 dev = qml.device('default.qubit', wires=2, analytic=True)
 
