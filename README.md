@@ -1,9 +1,10 @@
 # My examples of Quantum Computing
 
+As of Nov10th, I am now concentrating on https://pennylane.ai/
 
 This github is at  https://github.com/hpssjellis/my-examples-for-quantum-computing
 
-but first load the 
+# Installation
 
 ## Gitpod of this Github 
 (right click open in new window, needs you to have a github login) 
@@ -23,7 +24,9 @@ Load this pre-made Gitpod generated on Nov 10th, 2020. Use the above link if thi
 
 
 
-# Installation
+# Demos
+
+these examples were for Tensorflow Quantum which still work, but I am now working in the Pennylane folder
 
 run the examples by going to the apropriate folder and typing "python3 file.py" such as
 
@@ -36,7 +39,7 @@ python3 a01-mnist-small.py
 
 
 
-Having some issues getting matlablib to make plots while running.
+
 
 Testing to see if these work: Mnist full should take about 20 min or more.
 ```
