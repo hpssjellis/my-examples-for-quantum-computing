@@ -12,7 +12,7 @@ https://gitpod.io/#github.com/hpssjellis/my-examples-for-quantum-computing
 
 
 
-Note: This gitpod installs everything
+Note: The above gitpod installs everything
 
 or
 
