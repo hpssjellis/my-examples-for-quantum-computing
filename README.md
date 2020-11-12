@@ -12,8 +12,6 @@ https://gitpod.io/#github.com/hpssjellis/my-examples-for-quantum-computing
 
 
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#snapshot/d8c34cef-b46b-46be-b028-08cb7ffb493d)
-
 
 
 
@@ -25,8 +23,7 @@ or
 Load this pre-made Gitpod generated on Nov 10th, 2020. Use the above link if this one does not work.
 
 
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#snapshot/3fe9758c-4d20-434d-84ce-20a2f1a0006e)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#snapshot/d8c34cef-b46b-46be-b028-08cb7ffb493d)
 
 
 
