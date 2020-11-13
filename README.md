@@ -1,8 +1,22 @@
 # My examples of Quantum Computing
 
-As of Nov10th, I am now concentrating on https://pennylane.ai/
 
 This github is at  https://github.com/hpssjellis/my-examples-for-quantum-computing
+
+
+
+
+As of Nov10th, I am now concentrating on https://pennylane.ai/
+
+PennylaneAI github at
+https://github.com/PennyLaneAI/PennyLane
+
+
+PennylaneAI qml github at
+https://github.com/PennyLaneAI/qml   
+
+
+
 
 # Installation
 
