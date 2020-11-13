@@ -41,6 +41,20 @@ Load this pre-made Gitpod generated on Nov 12th, 2020. Use the above link if thi
 
 
 
+# pennylaneAI QML demos now work
+
+When the gitpod is running go the the folder pennylanai --> qml-demos and run
+
+```
+python3 tutorial-filename.py
+
+```
+
+The folder is at [pennylaneai/qml-demos/](pennylaneai/qml-demos/)
+
+
+
+
 # Demos
 
 these examples were for Tensorflow Quantum which still work, but I am now working in the Pennylane folder
