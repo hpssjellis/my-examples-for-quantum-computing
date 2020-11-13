@@ -36,3 +36,9 @@ model.compile(loss='mean_squared_error',
 optimizer=tf.keras.optimizers.Adam(0.01))
 
 model.fit(X, Y, epochs=60, batch_size=1)
+model.summary()
+tf.keras.models.save_model(model, './model.h5')
+
+
+
+#print (dir(tf.keras.models.save_model))
