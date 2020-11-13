@@ -33,4 +33,6 @@ Y1 = Y.reshape((len(Y), 1))
 
 model.compile(loss='mean_squared_error',
 
-              optimizer=tf.keras.optimizers.Adam(0.01))
+optimizer=tf.keras.optimizers.Adam(0.01))
+
+model.fit(X, Y, epochs=60, batch_size=1)
