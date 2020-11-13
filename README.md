@@ -41,7 +41,19 @@ Load this pre-made Gitpod generated on Nov 12th, 2020. Use the above link if thi
 
 
 
-# pennylaneAI QML demos now work
+
+# my work is in the Rocksetta folder
+[rocksetta](rocksetta)
+
+```
+python3 file.py
+
+```
+
+
+
+
+# pennylaneAI QML demos now works
 
 When the gitpod is running go the the folder pennylanai --> qml-demos and run
 
