@@ -1,6 +1,9 @@
 # My examples of Quantum Computing
 
 
+Started Nov 8th
+# version 0.0.1 
+
 This github is at  https://github.com/hpssjellis/my-examples-for-quantum-computing
 
 
