@@ -4,9 +4,19 @@
 Started Nov 5th, 2020
 # version 0.0.1 
 
-This github is at  https://github.com/hpssjellis/my-examples-for-quantum-computing
+## This github is at:    
+https://github.com/hpssjellis/my-examples-for-quantum-computing
 
 
+
+## This Repo website is at:  
+https://hpssjellis.github.io/my-examples-for-quantum-computing/public/index.html  
+
+
+Batch of tweets: 
+
+
+https://twitter.com/rocksetta/status/1312604679017099271?s=19
 
 
 As of Nov10th, I am now concentrating on https://pennylane.ai/
@@ -120,13 +130,6 @@ It will output mnist.txt and you can change it to mnist.py. A few of the first c
 
 
 
-## This Repo website https://hpssjellis.github.io/tfQuantumJs/public/index.html  
-
-
-Batch of tweets: 
-
-
-https://twitter.com/rocksetta/status/1312604679017099271?s=19
 
 
 
