@@ -10,7 +10,13 @@ https://github.com/hpssjellis/my-examples-for-quantum-computing
 
 
 ## This Repo website is at:  
-https://hpssjellis.github.io/my-examples-for-quantum-computing/public/index.html  
+https://hpssjellis.github.io/my-examples-for-quantum-computing/public/index.html
+
+
+## Gitpod of this Github 
+(right click open in new window, needs you to have a github login) 
+https://gitpod.io/#github.com/hpssjellis/my-examples-for-quantum-computing
+
 
 
 ## latest
@@ -38,9 +44,6 @@ https://github.com/PennyLaneAI/qml
 ## Gitpod of this Github 
 (right click open in new window, needs you to have a github login) 
 https://gitpod.io/#github.com/hpssjellis/my-examples-for-quantum-computing
-
-
-
 
 
 
