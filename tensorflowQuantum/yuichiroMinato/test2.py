@@ -1,5 +1,16 @@
 
+#import tensorflow and its libraries
+import tensorflow as tf
+import tensorflow_quantum as tfq
+#import quantum circuit situmator and other numerical libraries
+import cirq
+import sympy
+import numpy as np
 
+# visualization tools
+%matplotlib inline
+import matplotlib.pyplot as plt
+from cirq.contrib.svg import SVGCircuit
 
 
 
