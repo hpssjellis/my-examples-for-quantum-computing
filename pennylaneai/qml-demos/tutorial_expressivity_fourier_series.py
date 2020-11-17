@@ -219,7 +219,10 @@ target_y = np.array([target_function(x_) for x_ in x])
 plt.plot(x, target_y, c='black')
 plt.scatter(x, target_y, facecolor='white', edgecolor='black')
 plt.ylim(-1, 1)
-plt.show();
+#plt.show()
+plt.draw()
+plt.pause(0.001)
+input("Open Ports --> Open Preview or Browser --> push enter to continue")
 
 
 ######################################################################
@@ -308,7 +311,10 @@ random_quantum_model_y = [serial_quantum_model(weights, x=x_) for x_ in x]
 
 plt.plot(x, random_quantum_model_y, c='blue')
 plt.ylim(-1,1)
-plt.show()
+#plt.show()
+plt.draw()
+plt.pause(0.001)
+input("Open Ports --> Open Preview or Browser --> push enter to continue")
 
 
 ######################################################################
@@ -384,7 +390,10 @@ plt.plot(x, target_y, c='black')
 plt.scatter(x, target_y, facecolor='white', edgecolor='black')
 plt.plot(x, predictions, c='blue')
 plt.ylim(-1,1)
-plt.show();
+#plt.show()
+plt.draw()
+plt.pause(0.001)
+input("Open Ports --> Open Preview or Browser --> push enter to continue")
 
 
 ######################################################################
@@ -395,7 +404,10 @@ plt.plot(range(len(cst)), cst)
 plt.ylabel("Cost")
 plt.xlabel("Step")
 plt.ylim(0, 0.23)
-plt.show();
+#plt.show()
+plt.draw()
+plt.pause(0.001)
+input("Open Ports --> Open Preview or Browser --> push enter to continue")
 
 
 ######################################################################
@@ -539,7 +551,10 @@ random_quantum_model_y = [parallel_quantum_model(weights, x=x_) for x_ in x]
 
 plt.plot(x, random_quantum_model_y, c='blue')
 plt.ylim(-1,1)
-plt.show();
+#plt.show()
+plt.draw()
+plt.pause(0.001)
+input("Open Ports --> Open Preview or Browser --> push enter to continue")
 
 
 ######################################################################
@@ -592,7 +607,10 @@ plt.plot(x, target_y, c='black')
 plt.scatter(x, target_y, facecolor='white', edgecolor='black')
 plt.plot(x, predictions, c='blue')
 plt.ylim(-1,1)
-plt.show();
+#plt.show()
+plt.draw()
+plt.pause(0.001)
+input("Open Ports --> Open Preview or Browser --> push enter to continue")
 
 
 ######################################################################
@@ -602,7 +620,10 @@ plt.show();
 plt.plot(range(len(cst)), cst)
 plt.ylabel("Cost")
 plt.xlabel("Step")
-plt.show();
+#plt.show()
+plt.draw()
+plt.pause(0.001)
+input("Open Ports --> Open Preview or Browser --> push enter to continue")
 
 
 
@@ -742,7 +763,10 @@ for idx, ax_ in enumerate(ax):
 
 
 plt.tight_layout(pad=0.5)
-plt.show();
+#plt.show()
+plt.draw()
+plt.pause(0.001)
+input("Open Ports --> Open Preview or Browser --> push enter to continue")
 
 
 ######################################################################
