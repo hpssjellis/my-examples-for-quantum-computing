@@ -168,7 +168,10 @@ plt.plot(x, cost_pt, label = 'global minimum')
 plt.xlabel("Optimization steps")
 plt.ylabel("Cost / Energy")
 plt.legend()
-plt.show()
+#plt.show()
+plt.draw()
+plt.pause(0.001)
+input("Open Ports --> Open Preview or Browser --> push enter to continue")
 
 ###############################################################################
 # Local minimum
@@ -220,7 +223,10 @@ plt.plot(x, cost_pt_loc, 'r', label = 'local minimum')
 plt.xlabel("Optimization steps")
 plt.ylabel("Cost / Energy")
 plt.legend()
-plt.show()
+#plt.show()
+plt.draw()
+plt.pause(0.001)
+input("Open Ports --> Open Preview or Browser --> push enter to continue")
 
 ###############################################################################
 # |
