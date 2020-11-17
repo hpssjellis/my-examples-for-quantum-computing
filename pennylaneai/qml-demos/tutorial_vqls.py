@@ -407,8 +407,10 @@ for it in range(steps):
 plt.style.use("seaborn")
 plt.plot(cost_history, "g")
 plt.ylabel("Cost function")
-plt.xlabel("Optimization steps")
-plt.show()
+#plt.show()
+plt.draw()
+plt.pause(0.001)
+input("Open Ports --> Open Preview or Browser --> push enter to continue")
 
 ##############################################################################
 # Comparison of quantum and classical results
@@ -515,7 +517,10 @@ ax2.set_xlim(-0.5, 2 ** n_qubits - 0.5)
 ax2.set_xlabel("Hilbert space basis")
 ax2.set_title("Quantum probabilities")
 
-plt.show()
+#plt.show()
+plt.draw()
+plt.pause(0.001)
+input("Open Ports --> Open Preview or Browser --> push enter to continue")
 
 ##############################################################################
 # References
