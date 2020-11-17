@@ -198,7 +198,10 @@ def plot_surface(surface):
     ax.set_zlim(0, 1)
     ax.zaxis.set_major_locator(LinearLocator(10))
     ax.zaxis.set_major_formatter(FormatStrFormatter("%.02f"))
-    plt.show()
+    #plt.show()
+    plt.draw()
+    plt.pause(0.001)
+    input("Open Ports --> Open Preview or Browser --> push enter to continue")
 
 
 global_surface = generate_surface(cost_global)
