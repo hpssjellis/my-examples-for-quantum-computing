@@ -56,7 +56,10 @@ y_hot = torch.scatter(torch.zeros((200, 2)), 1, y_, 1)
 c = ["#1f77b4" if y_ == 0 else "#ff7f0e" for y_ in y]  # colours for each class
 plt.axis("off")
 plt.scatter(X[:, 0], X[:, 1], c=c)
-plt.show()
+#plt.show()
+plt.draw()
+plt.pause(0.001)
+input("Open Ports --> Open Preview or Browser --> push enter to continue")
 
 ###############################################################################
 # Defining a QNode
