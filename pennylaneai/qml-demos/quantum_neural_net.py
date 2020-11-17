@@ -136,7 +136,10 @@ plt.xlabel("x", fontsize=18)
 plt.ylabel("f(x)", fontsize=18)
 plt.tick_params(axis="both", which="major", labelsize=16)
 plt.tick_params(axis="both", which="minor", labelsize=16)
-plt.show()
+#plt.show()
+plt.draw()
+plt.pause(0.001)
+input("Open Ports --> Open Preview or Browser --> push enter to continue")
 
 
 ##############################################################################
@@ -700,7 +703,10 @@ plt.xlabel("x")
 plt.ylabel("f(x)")
 plt.tick_params(axis="both", which="major")
 plt.tick_params(axis="both", which="minor")
-plt.show()
+#plt.show()
+plt.draw()
+plt.pause(0.001)
+input("Open Ports --> Open Preview or Browser --> push enter to continue")
 
 ##############################################################################
 # .. image:: ../demonstrations/quantum_neural_net/qnn_output_28_0.png
@@ -731,7 +737,10 @@ plt.xlabel("x")
 plt.ylabel("f(x)")
 plt.tick_params(axis="both", which="major")
 plt.tick_params(axis="both", which="minor")
-plt.show()
+#plt.show()
+plt.draw()
+plt.pause(0.001)
+input("Open Ports --> Open Preview or Browser --> push enter to continue")
 
 ##############################################################################
 # .. image:: ../demonstrations/quantum_neural_net/qnn_output_30_0.png
