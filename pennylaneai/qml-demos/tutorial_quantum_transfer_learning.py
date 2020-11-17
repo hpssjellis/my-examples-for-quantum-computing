@@ -585,7 +585,10 @@ def visualize_model(model, num_images=6, fig_name="Predictions"):
 # with the corresponding predictions.
 #
 visualize_model(model_hybrid, num_images=batch_size)
-plt.show()
+#plt.show()
+plt.draw()
+plt.pause(0.001)
+input("Open Ports --> Open Preview or Browser --> push enter to continue")
 
 ##############################################################################
 # References
