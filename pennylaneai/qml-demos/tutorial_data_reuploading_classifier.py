@@ -232,7 +232,10 @@ def plot_data(x, y, fig=None, ax=None):
 Xdata, ydata = circle(500)
 fig, ax = plt.subplots(1, 1, figsize=(4, 4))
 plot_data(Xdata, ydata, fig=fig, ax=ax)
-plt.show()
+#plt.show()
+plt.draw()
+plt.pause(0.001)
+input("Open Ports --> Open Preview or Browser --> push enter to continue")
 
 
 # Define output labels as quantum state vectors
@@ -449,7 +452,10 @@ plot_data(X_test, y_test, fig, axes[2])
 axes[0].set_title("Predictions with random weights")
 axes[1].set_title("Predictions after training")
 axes[2].set_title("True test data")
-plt.show()
+#plt.show()
+plt.draw()
+plt.pause(0.001)
+input("Open Ports --> Open Preview or Browser --> push enter to continue")
 
 
 ##############################################################################
