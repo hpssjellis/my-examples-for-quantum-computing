@@ -17,6 +17,10 @@ https://hpssjellis.github.io/my-examples-for-quantum-computing/public/index.html
 (right click open in new window, needs you to have a github login) 
 https://gitpod.io/#github.com/hpssjellis/my-examples-for-quantum-computing
 
+or load a pre-made snapshot (faster to load but older) Made Nov 17th, 2020
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#snapshot/79f9a202-7b65-4271-a1d0-70912f13b09a)
+
+
 
 
 ## latest
@@ -41,21 +45,7 @@ https://github.com/PennyLaneAI/qml
 
 # Installation
 
-## Gitpod of this Github 
-(right click open in new window, needs you to have a github login) 
-https://gitpod.io/#github.com/hpssjellis/my-examples-for-quantum-computing
 
-
-
-
-Note: The above gitpod installs everything
-
-or
-
-Load this pre-made Gitpod generated on Nov 12th, 2020. Use the above link if this one does not work.
-
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#snapshot/8389a74c-5c8f-4347-ba74-4ca80ef3cc0b)
 
 
 
