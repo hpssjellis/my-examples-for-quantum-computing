@@ -337,7 +337,10 @@ plt.xlabel(r"$\gamma$")
 plt.ylabel("Weighted Cramér-Rao bound")
 plt.legend()
 plt.grid()
-plt.show()
+#plt.show()
+plt.draw()
+plt.pause(0.001)
+input("Open Ports --> Open Preview or Browser --> push enter to continue")
 
 ##############################################################################
 # We see that after only 20 gradient steps, we already found a sensing protocol
