@@ -1,3 +1,17 @@
+interesting 
+
+[tutorial_doubly_stochastic.py](tutorial_doubly_stochastic.py)
+
+
+
+Note using the gitpod just right click on a pton file and --> run python file in terminal
+
+
+
+
+
+
+
 Working https://pennylane.ai/ examples here
 
 Folder started Nov 10th, 2020
