@@ -197,7 +197,10 @@ plt.plot(noise_vals, noisy_expvals[:, 3], 'v',
 plt.xlabel('Noise parameter')
 plt.ylabel(r'Expectation value $\langle \hat{A}_i\otimes\hat{B}_j\rangle$')
 plt.legend()
-plt.show()
+#plt.show()
+plt.draw()
+plt.pause(0.001)
+input("Open Ports --> Open Preview or Browser --> push enter to continue")
 
 ##############################################################################
 # By adding the bit-flip noise, we have degraded the value of the 
@@ -226,7 +229,10 @@ plt.plot(noise_vals, 2 * np.ones_like(noise_vals),
 plt.xlabel('Noise parameter')
 plt.ylabel('CHSH Expectation value')
 plt.legend()
-plt.show()
+#plt.show()
+plt.draw()
+plt.pause(0.001)
+input("Open Ports --> Open Preview or Browser --> push enter to continue")
 
 ##############################################################################
 # Too much noise (around 0.2 in this example), and we lose the 
@@ -291,7 +297,10 @@ plt.plot(noise_vals, -np.ones_like(noise_vals), '--', label="Lowest possible")
 plt.ylabel(r"Expectation value $\langle \hat{Z} \rangle$") 
 plt.xlabel(r"Noise strength $p$")
 plt.legend()
-plt.show()
+#plt.show()
+plt.draw()
+plt.pause(0.001)
+input("Open Ports --> Open Preview or Browser --> push enter to continue")
 
 ##############################################################################
 # Let's fix the noise parameter and see how the noise affects the
@@ -464,7 +473,10 @@ plt.plot(angles, noisy_param_shift,
 plt.ylabel(r"Expectation value $\langle \hat{Z} \rangle$") 
 plt.xlabel(r"Angle $\theta_1$")
 plt.legend()
-plt.show()
+#plt.show()
+plt.draw()
+plt.pause(0.001)
+input("Open Ports --> Open Preview or Browser --> push enter to continue")
 
 
 ##############################################################################
