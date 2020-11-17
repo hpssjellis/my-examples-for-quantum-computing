@@ -1,10 +1,4 @@
-interesting 
 
-[tutorial_doubly_stochastic.py](tutorial_doubly_stochastic.py)
-
-
-
-Note using the gitpod just right click on a pton file and --> run python file in terminal
 
 
 
