@@ -470,7 +470,10 @@ plt.plot(qng_cost, "g", label="Quantum natural gradient descent")
 plt.ylabel("Cost function value")
 plt.xlabel("Optimization steps")
 plt.legend()
-plt.show()
+#plt.show()
+plt.draw()
+plt.pause(0.001)
+input("Open Ports --> Open Preview or Browser --> push enter to continue")
 
 ##############################################################################
 # References
