@@ -393,7 +393,10 @@ ax.set_ylabel("Time (s)")
 ax.set_xlabel("Number of parameters")
 ax.legend()
 
-plt.show()
+#plt.show()
+plt.draw()
+plt.pause(0.001)
+input("Open Ports --> Open Preview or Browser --> push enter to continue")
 
 ##############################################################################
 # .. raw:: html
@@ -434,7 +437,11 @@ ax.set_xscale("log")
 ax.set_yscale("log")
 ax.legend()
 
-plt.show()
+#plt.show()
+plt.draw()
+plt.pause(0.001)
+input("Open Ports --> Open Preview or Browser --> push enter to continue")
+
 
 ##############################################################################
 # .. raw:: html
