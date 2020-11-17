@@ -157,7 +157,10 @@ plt.plot(angles, grad_vals, 'r', label="qml.grad function")
 plt.plot(angles, param_shift_vals, 'mx', label="Parameter-shift rule")
 plt.xlabel("theta")
 plt.legend()
-plt.show()
+#plt.show()
+plt.draw()
+plt.pause(0.001)
+input("Open Ports --> Open Preview or Browser --> push enter to continue")
 
 
 ##############################################################################
@@ -333,7 +336,10 @@ plt.plot(angles, evals, 'b', label="Expectation Value")
 plt.plot(angles, spsr_vals, 'r', label="Stochastic parameter-shift rule")
 plt.xlabel("theta1")
 plt.legend()
-plt.show()
+#plt.show()
+plt.draw()
+plt.pause(0.001)
+input("Open Ports --> Open Preview or Browser --> push enter to continue")
 
 ##############################################################################
 # By inspection, we can see that the expectation values of the cross-resonance
