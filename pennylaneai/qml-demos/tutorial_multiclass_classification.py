@@ -310,4 +310,7 @@ ax2.tick_params(axis="y", labelsize=14, labelcolor=colors[1])
 
 plt.grid(False)
 plt.tight_layout()
-plt.show()
+#plt.show()
+plt.draw()
+plt.pause(0.001)
+input("Open Ports --> Open Preview or Browser --> push enter to continue")
