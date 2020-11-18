@@ -55,7 +55,7 @@ from pennylane import numpy as np
 # ``.xyz`` format that contains the geometry of the hydrogen molecule, and specify its name for
 # later use:
 
-geometry = 'h2.xyz'
+geometry = '/workspace/my-examples-for-quantum-computing/pennylaneai/qml-demos/alldata/h2.xyz'
 
 ##############################################################################
 # Alternatively, you can download the file here: :download:`h2.xyz </demonstrations/h2.xyz>`.
