@@ -53,7 +53,7 @@ from pennylane import qchem
 # and stored in a list containing the symbol and the Cartesian coordinates of each atomic
 # species:
 
-geometry = qchem.read_structure('h2o.xyz')
+geometry = qchem.read_structure('/workspace/my-examples-for-quantum-computing/pennylaneai/qml-demos/alldata/h2o.xyz')
 print("The total number of atoms is: {}".format(len(geometry)))
 print(geometry)
 
@@ -265,7 +265,7 @@ print(qubit_hamiltonian)
 
 H, qubits = qchem.molecular_hamiltonian(
     name,
-    'h2o.xyz',
+    '/workspace/my-examples-for-quantum-computing/pennylaneai/qml-demos/alldata/h2o.xyz',
     charge=charge,
     mult=multiplicity,
     basis=basis_set,
