@@ -61,16 +61,16 @@ from pennylane import qchem
 # Zip from :download:`here <../demonstrations/vqe_parallel/vqe_parallel.zip>`.
 
 data = {  # keys: atomic separations (in Angstroms), values: corresponding files
-    0.3: "vqe_parallel/h2_0.30.xyz",
-    0.5: "vqe_parallel/h2_0.50.xyz",
-    0.7: "vqe_parallel/h2_0.70.xyz",
-    0.9: "vqe_parallel/h2_0.90.xyz",
-    1.1: "vqe_parallel/h2_1.10.xyz",
-    1.3: "vqe_parallel/h2_1.30.xyz",
-    1.5: "vqe_parallel/h2_1.50.xyz",
-    1.7: "vqe_parallel/h2_1.70.xyz",
-    1.9: "vqe_parallel/h2_1.90.xyz",
-    2.1: "vqe_parallel/h2_2.10.xyz",
+    0.3: "/workspace/my-examples-for-quantum-computing/pennylaneai/qml-demos/vqe_parallel/h2_0.30.xyz",
+    0.5: "/workspace/my-examples-for-quantum-computing/pennylaneai/qml-demos/vqe_parallel/h2_0.50.xyz",
+    0.7: "/workspace/my-examples-for-quantum-computing/pennylaneai/qml-demos/vqe_parallel/h2_0.70.xyz",
+    0.9: "/workspace/my-examples-for-quantum-computing/pennylaneai/qml-demos/vqe_parallel/h2_0.90.xyz",
+    1.1: "/workspace/my-examples-for-quantum-computing/pennylaneai/qml-demos/vqe_parallel/h2_1.10.xyz",
+    1.3: "/workspace/my-examples-for-quantum-computing/pennylaneai/qml-demos/vqe_parallel/h2_1.30.xyz",
+    1.5: "/workspace/my-examples-for-quantum-computing/pennylaneai/qml-demos/vqe_parallel/h2_1.50.xyz",
+    1.7: "/workspace/my-examples-for-quantum-computing/pennylaneai/qml-demos/vqe_parallel/h2_1.70.xyz",
+    1.9: "/workspace/my-examples-for-quantum-computing/pennylaneai/qml-demos/vqe_parallel/h2_1.90.xyz",
+    2.1: "/workspace/my-examples-for-quantum-computing/pennylaneai/qml-demos/vqe_parallel/h2_2.10.xyz",
 }
 
 ##############################################################################
