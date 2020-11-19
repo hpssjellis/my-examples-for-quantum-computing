@@ -55,7 +55,7 @@ Let's get to it!
 # path where you have saved the downloaded data).
 
 import numpy as np
-coords = np.loadtxt("pasqal/Eiffel_tower_data.dat")
+coords = np.loadtxt("/workspace/my-examples-for-quantum-computing/pennylaneai/qml-demos/alldata/Eiffel_tower_data.dat")
 xs = coords[:,0]
 ys = coords[:,1]
 zs = coords[:,2]
