@@ -198,7 +198,7 @@ def accuracy(labels, hard_predictions):
 # elements squared is 1 (:math:`\ell_2` norm is 1).
 
 def load_and_process_data():
-    data = np.loadtxt("multiclass_classification/iris.csv", delimiter=",")
+    data = np.loadtxt("/workspace/my-examples-for-quantum-computing/pennylaneai/qml-demos/alldata/iris.csv", delimiter=",")
     X = torch.tensor(data[:, 0:feature_size])
     print("First X sample, original  :", X[0])
 
