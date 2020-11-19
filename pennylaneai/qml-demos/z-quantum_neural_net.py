@@ -119,7 +119,7 @@ def cost(var, features, labels):
 # (:html:`<a href="https://raw.githubusercontent.com/XanaduAI/pennylane/v0.3.0/examples/data/sine.txt"
 # download="sine.txt" target="_blank">download the file here</a>`).
 
-data = np.loadtxt("sine.txt")
+data = np.loadtxt("/workspace/my-examples-for-quantum-computing/pennylaneai/qml-demos/alldata/sine.txt")
 X = data[:, 0]
 Y = data[:, 1]
 
