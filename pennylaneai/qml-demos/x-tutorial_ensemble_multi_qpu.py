@@ -285,7 +285,7 @@ def predict(params, x=None, parallel=True):
 # by clicking :download:`here <../demonstrations/ensemble_multi_qpu/params.npy>`.
 
 
-params = np.load("ensemble_multi_qpu/params.npy")
+params = np.load("/workspace/my-examples-for-quantum-computing/pennylaneai/qml-demos/alldata/params.npy")
 
 ##############################################################################
 # We can then make predictions for the training and test datasets.
