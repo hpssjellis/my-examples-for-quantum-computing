@@ -73,7 +73,7 @@ from functools import partial
 # This is done by providing the name and the geometry of the molecule.
 
 name = "h2"
-geometry = "h2.xyz"
+geometry = "/workspace/my-examples-for-quantum-computing/pennylaneai/qml-demos/alldata/h2.xyz"
 
 ##############################################################################
 # The geometry of the molecule can be given in any format recognized by Open Babel.
