@@ -198,7 +198,7 @@ def cost(var, X, Y):
 #     download=parity.txt target="_blank">here</a>` and
 #     should be placed in the subfolder ``variational_classifer/data``.
 
-data = np.loadtxt("variational_classifier/data/parity.txt")
+data = np.loadtxt("/workspace/my-examples-for-quantum-computing/pennylaneai/qml-demos/variational_classifier/data/parity.txt")
 X = data[:, :-1]
 Y = data[:, -1]
 Y = Y * 2 - np.ones(len(Y))  # shift label from {0, 1} to {-1, 1}
@@ -390,7 +390,7 @@ def cost(weights, features, labels):
 #     download=parity.txt target="_blank">here</a>` and should be placed
 #     in the subfolder ``variational_classifer/data``.
 
-data = np.loadtxt("variational_classifier/data/iris_classes1and2_scaled.txt")
+data = np.loadtxt("/workspace/my-examples-for-quantum-computing/pennylaneai/qml-demos/variational_classifier/data/iris_classes1and2_scaled.txt")
 X = data[:, 0:2]
 print("First X sample (original)  :", X[0])
 
