@@ -1,0 +1,23 @@
+image:
+  file: .gitpod.Dockerfile
+  
+ports:
+  - port: 6080
+    onOpen: ignore 
+
+  
+tasks:
+  - init:    pip3 install --upgrade pip                                             &&
+             pip3 install tensorflow                                                &&
+             pip3 install tensorflowjs                                              &&
+             pip3 install netron                                                    &&
+             pip3 install tensorflow-quantum                                        &&
+             pip3 install matplotlib                                                &&
+             git clone https://github.com/tensorflow/quantum.git                    &&
+             pip3 install pennylane --upgrade                                       &&
+             pip3 install pennylane-cirq autograd "tensorflow>=1.13.2"              &&
+             pip3 install pytest-mock  sympy  flaky  nlopt   dask[delayed]          &&
+             pip3 install  toml  scipy qulacs pillow  numpy                         &&
+             pip3 install pennylane-sf pennylane-qiskit pennylane-cirq pytest-cov   &&
+             pip3 install pennylane-forest pennylane-qsharp pytest pennylane-qchem  &&
+             pip3 install torch==1.7.0+cpu torchvision==0.8.1+cpu torchaudio==0.7.0 -f https://download.pytorch.org/whl/torch_stable.html
