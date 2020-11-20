@@ -1,5 +1,5 @@
 
-Mot of thesee examples can be run using the gitpod of this site
+Most of thesee examples can be run using the gitpod of this site
 
 
 ### https://gitpod.io/#github.com/hpssjellis/my-examples-for-quantum-computing
@@ -70,7 +70,7 @@ interesting
 
 
 
-Note using the gitpod just right click on a pton file and --> run python file in terminal
+Note using the gitpod just right click on a python file and --> run python file in terminal
 
 
 
