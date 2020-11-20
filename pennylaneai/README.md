@@ -29,3 +29,16 @@ and
 
 https://discuss.pennylane.ai/t/keras-layer-single-qbit/618
 
+
+
+
+
+For Error reporting
+
+```
+echo "********************************************"
+
+python3 filename.py 2>> /workspace/my-examples-for-quantum-computing/pennylaneai/qml-demos/errors.txt
+
+
+```
