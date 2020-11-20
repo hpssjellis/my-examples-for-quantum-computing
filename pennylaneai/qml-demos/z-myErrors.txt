@@ -378,6 +378,18 @@ pkg_resources.ContextualVersionConflict: (sympy 1.5 (/workspace/.pip-modules/lib
 Running Python file: z-tutorial_pasqal
 *********************
 
+
+
+******************   SOLVED BY INSTALLING *********************************
+
+
+python3 -m pip install --user six==1.13.0
+pip3 install qsimcirq
+
+
+
+
+
 Open Ports --> Open Preview or Browser --> push enter to continueOpen Ports --> Open Preview or Browser --> push enter to continue2020-11-20 22:28:27.807815: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory
 2020-11-20 22:28:27.807892: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
 Traceback (most recent call last):
