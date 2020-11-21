@@ -1,0 +1,82 @@
+
+*********************
+*********************
+Running Python file: x-pytorch_noise
+*********************
+
+2020-11-21 02:41:09.978901: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory
+2020-11-21 02:41:09.978989: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+Traceback (most recent call last):
+  File "x-pytorch_noise.py", line 60, in <module>
+    dev = qml.device("forest.qvm", device="2q", noisy=True)
+  File "/workspace/.pip-modules/lib/python3.7/site-packages/pennylane/__init__.py", line 187, in device
+    plugin_device_class = plugin_devices[name].load()
+  File "/workspace/.pip-modules/lib/python3.7/site-packages/pkg_resources/__init__.py", line 2446, in load
+    self.require(*args, **kwargs)
+  File "/workspace/.pip-modules/lib/python3.7/site-packages/pkg_resources/__init__.py", line 2469, in require
+    items = working_set.resolve(reqs, env, installer, extras=self.extras)
+  File "/workspace/.pip-modules/lib/python3.7/site-packages/pkg_resources/__init__.py", line 775, in resolve
+    raise VersionConflict(dist, req).with_context(dependent_req)
+pkg_resources.ContextualVersionConflict: (antlr4-python3-runtime 4.8 (/workspace/.pip-modules/lib/python3.7/site-packages), Requirement.parse('antlr4-python3-runtime<4.8,>=4.7.2'), {'pyquil'})
+
+*********************
+*********************
+Running Python file: x-tutorial_ensemble_multi_qpu
+*********************
+
+2020-11-21 02:41:21.833860: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory
+2020-11-21 02:41:21.833951: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+Traceback (most recent call last):
+  File "x-tutorial_ensemble_multi_qpu.py", line 166, in <module>
+    dev0 = qml.device("forest.qvm", device="4q-qvm")
+  File "/workspace/.pip-modules/lib/python3.7/site-packages/pennylane/__init__.py", line 187, in device
+    plugin_device_class = plugin_devices[name].load()
+  File "/workspace/.pip-modules/lib/python3.7/site-packages/pkg_resources/__init__.py", line 2446, in load
+    self.require(*args, **kwargs)
+  File "/workspace/.pip-modules/lib/python3.7/site-packages/pkg_resources/__init__.py", line 2469, in require
+    items = working_set.resolve(reqs, env, installer, extras=self.extras)
+  File "/workspace/.pip-modules/lib/python3.7/site-packages/pkg_resources/__init__.py", line 775, in resolve
+    raise VersionConflict(dist, req).with_context(dependent_req)
+pkg_resources.ContextualVersionConflict: (antlr4-python3-runtime 4.8 (/workspace/.pip-modules/lib/python3.7/site-packages), Requirement.parse('antlr4-python3-runtime<4.8,>=4.7.2'), {'pyquil'})
+
+*********************
+*********************
+Running Python file: x-tutorial_quantum_transfer_learning
+*********************
+
+2020-11-21 02:41:34.765270: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory
+2020-11-21 02:41:34.765375: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+Traceback (most recent call last):
+  File "x-tutorial_quantum_transfer_learning.py", line 215, in <module>
+    for x in ["train", "val"]
+  File "x-tutorial_quantum_transfer_learning.py", line 215, in <dictcomp>
+    for x in ["train", "val"]
+  File "/workspace/.pip-modules/lib/python3.7/site-packages/torchvision/datasets/folder.py", line 229, in __init__
+    is_valid_file=is_valid_file)
+  File "/workspace/.pip-modules/lib/python3.7/site-packages/torchvision/datasets/folder.py", line 108, in __init__
+    classes, class_to_idx = self._find_classes(self.root)
+  File "/workspace/.pip-modules/lib/python3.7/site-packages/torchvision/datasets/folder.py", line 137, in _find_classes
+    classes = [d.name for d in os.scandir(dir) if d.is_dir()]
+FileNotFoundError: [Errno 2] No such file or directory: '../_data/hymenoptera_data/train'
+
+*********************
+*********************
+Running Python file: z-tutorial_vqe_parallel
+*********************
+
+2020-11-21 02:41:47.537153: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory
+2020-11-21 02:41:47.537252: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+Traceback (most recent call last):
+  File "z-tutorial_vqe_parallel.py", line 123, in <module>
+    dev1 = [qml.device("forest.qvm", device="4q-qvm") for _ in range(8)]
+  File "z-tutorial_vqe_parallel.py", line 123, in <listcomp>
+    dev1 = [qml.device("forest.qvm", device="4q-qvm") for _ in range(8)]
+  File "/workspace/.pip-modules/lib/python3.7/site-packages/pennylane/__init__.py", line 187, in device
+    plugin_device_class = plugin_devices[name].load()
+  File "/workspace/.pip-modules/lib/python3.7/site-packages/pkg_resources/__init__.py", line 2446, in load
+    self.require(*args, **kwargs)
+  File "/workspace/.pip-modules/lib/python3.7/site-packages/pkg_resources/__init__.py", line 2469, in require
+    items = working_set.resolve(reqs, env, installer, extras=self.extras)
+  File "/workspace/.pip-modules/lib/python3.7/site-packages/pkg_resources/__init__.py", line 775, in resolve
+    raise VersionConflict(dist, req).with_context(dependent_req)
+pkg_resources.ContextualVersionConflict: (antlr4-python3-runtime 4.8 (/workspace/.pip-modules/lib/python3.7/site-packages), Requirement.parse('antlr4-python3-runtime<4.8,>=4.7.2'), {'pyquil'})
