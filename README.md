@@ -18,9 +18,10 @@ https://hpssjellis.github.io/my-examples-for-quantum-computing/public/index.html
 https://gitpod.io/#github.com/hpssjellis/my-examples-for-quantum-computing
 
 or load a pre-made snapshot (faster to load but older) 
-Made Nov 17th, 2020
+Made Nov 20th, 2020
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#snapshot/79f9a202-7b65-4271-a1d0-70912f13b09a)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#snapshot/1207fe79-3bd6-46f0-957e-3807dbda14f1)
+
 
 
 
