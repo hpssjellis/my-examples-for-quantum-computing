@@ -16,11 +16,11 @@ tasks:
              git clone https://github.com/tensorflow/quantum.git                    &&
              pip3 install pennylane --upgrade                                       &&
              pip3 install pennylane-cirq autograd "tensorflow>=1.13.2"              &&
-             pip3 install pytest-mock  sympy  flaky  nlopt   dask[delayed]          &&
+             pip3 install pytest-mock flaky  nlopt   dask[delayed]                  &&
              pip3 install  toml  scipy qulacs pillow  numpy                         &&
              pip3 install pennylane-sf pennylane-qiskit pennylane-cirq pytest-cov   &&
              pip3 install pennylane-forest pennylane-qsharp pytest pennylane-qchem  &&
              pip3 install torch==1.7.0+cpu torchvision==0.8.1+cpu torchaudio==0.7.0 -f https://download.pytorch.org/whl/torch_stable.html  &&
-             pip3 install six==1.13.0 qsimcirq
+             pip3 install six==1.13.0 qsimcirq sympy==1.5.1 pyquil==2.21
              
              
