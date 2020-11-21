@@ -258,6 +258,22 @@ pyquil.api._qvm.QVMNotRunning: No QVM server running at http://127.0.0.1:5000
 Running Python file: x-tutorial_noisy_circuit_optimization
 *********************
 
+
+
+
+
+******************   SOLVED BY INSTALLING *********************************
+
+
+python3 -m pip install --user six==1.13.0
+pip3 install qsimcirq
+
+
+
+
+
+
+
 2020-11-20 22:26:28.800093: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory
 2020-11-20 22:26:28.800170: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
 Traceback (most recent call last):
@@ -298,6 +314,22 @@ pkg_resources.ContextualVersionConflict: (antlr4-python3-runtime 4.7.2 (/workspa
 Running Python file: x-tutorial_QGAN
 *********************
 
+
+
+
+
+******************   SOLVED BY INSTALLING *********************************
+
+
+python3 -m pip install --user six==1.13.0
+pip3 install qsimcirq
+
+
+
+
+
+
+
 2020-11-20 22:26:52.866263: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory
 2020-11-20 22:26:52.866342: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
 Traceback (most recent call last):
@@ -317,6 +349,21 @@ pkg_resources.ContextualVersionConflict: (six 1.12.0 (/home/gitpod/.pyenv/versio
 *********************
 Running Python file: x-tutorial_quantum_metrology
 *********************
+
+
+
+
+******************   SOLVED BY INSTALLING *********************************
+
+
+python3 -m pip install --user six==1.13.0
+pip3 install qsimcirq
+
+
+
+
+
+
 
 2020-11-20 22:27:08.223003: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory
 2020-11-20 22:27:08.223091: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
