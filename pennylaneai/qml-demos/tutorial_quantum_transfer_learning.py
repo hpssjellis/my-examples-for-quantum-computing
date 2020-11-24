@@ -207,7 +207,12 @@ data_transforms = {
     ),
 }
 
-data_dir = "../_data/hymenoptera_data"
+# data_dir = "../_data/hymenoptera_data"
+
+data_dir = "/workspace/my-examples-for-quantum-computing/pennylaneai/qml-demos/alldata/hymenoptera_data"
+
+
+
 image_datasets = {
     x if x == "train" else "validation": datasets.ImageFolder(
         os.path.join(data_dir, x), data_transforms[x]
