@@ -4,11 +4,6 @@ image:
 ports:
   - port: 6080
     onOpen: open-preview
-  - port: 5900
-    onOpen: ignore 
-  - port: 35900
-    onOpen: ignore 
-
   
 tasks:
   - init:    pip3 install --upgrade pip                                             &&
