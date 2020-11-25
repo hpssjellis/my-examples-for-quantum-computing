@@ -30,10 +30,12 @@ tasks:
              unzip  hymenoptera_data.zip                                            &&
              rm  hymenoptera_data.zip                                               &&
              cd ..                                                                  &&
-             chmod a+x a01-show-errors.sh                                           &&             
+             chmod a+x a01-show-errors.sh                                           &&   
+             chmod a+x a02-set-antlr4-python3-runtime-to-4-7-2.sh                   &&   
+             chmod a+x a03-increase-antlr4-python3-runtime.sh                       &&             
              echo " "                                                               &&
              echo "Running a program to prove it works"                             &&
-             python3 tf-tutorial_pasqal.py                                          &&
+             python3 tutorial_quantum_chemistry.py                                  &&
              ls -la                                                                 &&
              echo "Run the python files by typing python3 filename.py"
              
