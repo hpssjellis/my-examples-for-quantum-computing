@@ -43,6 +43,8 @@ https://github.com/PennyLaneAI/qml
 
 
 
+PennyLaneAI Interactive Strawberry fields   https://strawberryfields.ai/interactive/
+
 
 # Installation
 
