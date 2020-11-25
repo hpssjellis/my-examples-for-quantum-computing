@@ -30,7 +30,7 @@ tasks:
              rm  hymenoptera_data.zip                                               &&
              cd ..                                                                  &&
              chmod a+x a01-show-errors.sh                                           &&
-             chmod a+x a02-set-antlr4-python3-runtime-to-4.7.2.sh                   &&
+             chmod a+x a02-set-antlr4-python3-runtime-to-4-7-2.sh                   &&
              chmod a+x a03-increase-antlr4-python3-runtime.sh                       &&
              echo ""                                                                &&
              echo "Running a program to prove it works"                             &&
