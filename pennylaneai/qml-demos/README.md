@@ -27,18 +27,47 @@ Just link to the file name at this https://pennylane.ai/qml/demos/[filename].htm
 
 [tutorial_qnn_module_tf](https://pennylane.ai/qml/demos/tutorial_qnn_module_tf.html)   
 
+[qgrnn](https://pennylane.ai/qml/demos/qgrnn.html)   
+
+[qonn](https://pennylane.ai/qml/demos/qonn.html)   
+
+[quantum_neural_net](https://pennylane.ai/qml/demos/quantum_neural_net.html)   
+[tutorial_QGAN](https://pennylane.ai/qml/demos/tutorial_QGAN.html)   
+[tutorial_backprop](https://pennylane.ai/qml/demos/tutorial_backprop.html)   
+[tutorial_pasqal](https://pennylane.ai/qml/demos/tutorial_pasqal.html)   
+[tutorial_qnn_module_tf](https://pennylane.ai/qml/demos/tutorial_qnn_module_tf.html)   
+[tutorial_quanvolution](https://pennylane.ai/qml/demos/tutorial_quanvolution.html)   
+[](https://pennylane.ai/qml/demos/.html)   
+[](https://pennylane.ai/qml/demos/.html)   
+[](https://pennylane.ai/qml/demos/.html)   
+[](https://pennylane.ai/qml/demos/.html)   
+[](https://pennylane.ai/qml/demos/.html)   
+[](https://pennylane.ai/qml/demos/.html)   
+[](https://pennylane.ai/qml/demos/.html)   
+[](https://pennylane.ai/qml/demos/.html)   
+[](https://pennylane.ai/qml/demos/.html)   
+[](https://pennylane.ai/qml/demos/.html)   
+[](https://pennylane.ai/qml/demos/.html)   
+[](https://pennylane.ai/qml/demos/.html)   
+[](https://pennylane.ai/qml/demos/.html)   
+[](https://pennylane.ai/qml/demos/.html)   
+[](https://pennylane.ai/qml/demos/.html)   
 [](https://pennylane.ai/qml/demos/.html)   
 
-[](https://pennylane.ai/qml/demos/.html)   
 
 
 
 
 
 
+.
+
+
+.
 
 
 
+.
 
 
 
