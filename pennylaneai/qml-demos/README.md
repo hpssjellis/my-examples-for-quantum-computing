@@ -14,12 +14,42 @@ python3 file.py
 ```
 
 
+### PennyLaneAi Demos:
+
+
+
+Just link to the file name at this https://pennylane.ai/qml/demos/[filename].html   
 
 
 
 
 
-Requirements.txt   
+
+[tutorial_qnn_module_tf](https://pennylane.ai/qml/demos/tutorial_qnn_module_tf.html)   
+
+[](https://pennylane.ai/qml/demos/.html)   
+
+[](https://pennylane.ai/qml/demos/.html)   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Requirements.txt   
 
 
 --find-links https://download.pytorch.org/whl/torch_stable.html   
