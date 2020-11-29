@@ -1,6 +1,8 @@
 #!/bin/bash
 
-pip3 install antlr4-python3-runtime==4.7.2  pyquil==2.19.0
+pip3 uninstall pennylane-sf
+
+pip3 install antlr4-python3-runtime==4.7.2  pyquil==2.21
 
 
 # pyquil now at 2.25 https://github.com/rigetti/pyquil/releases/tag/v2.25.0
