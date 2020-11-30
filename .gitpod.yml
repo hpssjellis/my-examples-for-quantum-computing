@@ -22,7 +22,7 @@ tasks:
              pip3 install pennylane-forest pennylane-qsharp pytest pennylane-qchem  &&
              pip3 install torch==1.7.0+cpu torchvision==0.8.1+cpu torchaudio==0.7.0 -f https://download.pytorch.org/whl/torch_stable.html  &&
              pip3 install six==1.13.0 qsimcirq sympy==1.5.1 pyquil==2.21            &&
-             pip3 install antlr4-python3-runtime==4.8 seaborn                       &&
+             pip3 install antlr4-python3-runtime==4.8 seaborn   pyyaml h5py         &&
              cd pennylaneai                                                         &&
              cd qml-demos                                                           &&
              cd alldata                                                             &&
