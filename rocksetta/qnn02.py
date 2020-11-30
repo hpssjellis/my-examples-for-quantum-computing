@@ -9,7 +9,19 @@ from sklearn.datasets import make_moons
 import pennylane as qml
 
 X, y = make_moons(n_samples=200, noise=0.1)
+print("X")
+print(X)
+
+print()
+print("y")
+print(y)
+
 y_hot = tf.keras.utils.to_categorical(y, num_classes=2)  # one-hot encoded labels
+
+
+print()
+print("y_hot")
+print(y_hot)
 
 c = ["#1f77b4" if y_ == 0 else "#ff7f0e" for y_ in y]  # colours for each class
 plt.axis("off")
@@ -42,5 +54,4 @@ model.compile(opt, loss="mae", metrics=["accuracy"])
 
 X = X.astype("float32")
 y_hot = y_hot.astype("float32")
-fitting = model.fit(X, y_hot, epochs=6, batch_size=5, validation_split=0.25, verbose=2)
-
+fitting = model.fit(X, y_hot, epochs=3, batch_size=5, validation_split=0.25, verbose=2)
