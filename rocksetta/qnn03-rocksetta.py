@@ -66,4 +66,10 @@ print ("qnn_results")
 print (qnn_results)
 
 
+#tf.keras.models.save_model(model, './model11.h5', overwrite=True, include_optimizer=True, save_format=None, signatures=None, options=None)
+tf.keras.models.save_model(model, './model12.h5')
+
+#model.save_weights('./model_weights12')
+
+
 
