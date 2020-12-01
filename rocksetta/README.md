@@ -2,6 +2,10 @@ Sometimes best just to start by finding lots of examples
 
 
 
+note: for [qnn09-rocksetta.py](qnn09-rocksetta.py)
+
+n-qubits 2 can be thought of as nodes and increasing increases the time to train.
+
 # examples
 
 presently the only one working sort of is single-qbit01.py 
