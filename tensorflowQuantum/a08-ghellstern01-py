@@ -1,0 +1,104 @@
+## By Dr Gerhard Hellstern
+## Found on the TFQ issues site at https://github.com/tensorflow/quantum/issues/267
+
+
+
+import tensorflow as tf
+import tensorflow_quantum as tfq
+import cirq
+import sympy
+import numpy as np
+
+#Create One-Dimensional-Data for Classification
+np.random.seed(seed=123)
+n = 900
+data = np.random.rand(n, 1)
+labels = []
+for p in range(0, n):
+    if data[p] <= 0.5:
+        label = [1, 0]
+    else:
+        label = [0, 1]
+    labels.append(label)
+labels = np.array(labels, dtype=np.int32)
+
+bit = cirq.GridQubit(0, 0)
+symbols = sympy.symbols('alpha, beta, gamma')
+ops = [cirq.Z(bit)]
+circuit = cirq.Circuit(
+    cirq.X(bit)**symbols[0],
+    cirq.X(bit)**symbols[1],
+    cirq.X(bit)**symbols[2]
+)
+
+
+class SplitBackpropQ(tf.keras.layers.Layer):
+
+    def __init__(self, upstream_symbols, managed_symbols, managed_init_vals,
+                 operators):
+        """Create a layer that splits backprop between several variables.
+
+
+        Args:
+            upstream_symbols: Python iterable of symbols to bakcprop
+                through this layer.
+            managed_symbols: Python iterable of symbols to backprop
+                into variables managed by this layer.
+            managed_init_vals: Python iterable of initial values
+                for managed_symbols.
+            operators: Python iterable of operators to use for expectation.
+
+        """
+        super().__init__(SplitBackpropQ)
+        self.all_symbols = upstream_symbols + managed_symbols
+        self.upstream_symbols = upstream_symbols
+        self.managed_symbols = managed_symbols
+        self.managed_init = managed_init_vals
+        self.ops = operators
+
+    def build(self, input_shape):
+        self.managed_weights = self.add_weight(
+            shape=(1, len(self.managed_symbols)),
+            initializer=tf.constant_initializer(self.managed_init))
+
+    def call(self, inputs):
+        # inputs are: circuit tensor, upstream values
+        upstream_shape = tf.gather(tf.shape(inputs[0]), 0)
+        tiled_up_weights = tf.tile(self.managed_weights, [upstream_shape, 1])
+        joined_params = tf.concat([inputs[1], tiled_up_weights], 1)
+        return tfq.layers.Expectation()(inputs[0],
+                                        operators=ops,
+                                        symbol_names=self.all_symbols,
+                                        symbol_values=joined_params)
+
+
+data_input = tf.keras.Input(shape=(1,), dtype=tf.dtypes.float32)
+
+#Use a classical NN to transform the data
+encod_1 = tf.keras.layers.Dense(
+    10, activation=tf.keras.activations.relu)(data_input)
+encod_2 = tf.keras.layers.Dense(
+    1, activation=tf.keras.activations.softmax)(encod_1)
+
+# This is needed because of Note here:
+# https://www.tensorflow.org/quantum/api_docs/python/tfq/layers/Expectation
+unused = tf.keras.Input(shape=(), dtype=tf.dtypes.string)
+
+expectation = SplitBackpropQ(['alpha'], ['beta', 'gamma'], [np.pi / 2, 0],
+                             ops)([unused, encod_2])
+
+classifier = tf.keras.layers.Dense(2, activation=tf.keras.activations.softmax)
+classifier_output = classifier(expectation)
+
+model = tf.keras.Model(inputs=[unused, data_input], outputs=classifier_output)
+
+model.compile(optimizer='Adam', loss='mse')
+
+model.fit([tfq.convert_to_tensor([circuit for _ in range(n)]), data],
+          labels,
+          epochs=10)
+
+# Now we can see 37 parameters. Two of which belong to "SplitBackpropQ"
+# since we told it above on L81 that we want it to manage ["beta", "gamma"]
+model.summary()
+print(model.trainable_variables)
