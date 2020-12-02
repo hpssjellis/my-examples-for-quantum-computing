@@ -1,3 +1,9 @@
+## example suggested by MichaelBroughton
+## in my issues submission to TensorflowQuantum, which may now be closed.
+## https://github.com/tensorflow/quantum/issues/443
+
+
+
 import cirq
 import sympy
 import numpy as np
