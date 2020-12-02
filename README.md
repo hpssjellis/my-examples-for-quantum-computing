@@ -26,6 +26,9 @@ Made Nov 23th, 2020
 
 ## latest
 
+
+Awesome reference https://github.com/ghellstern/awesome-quantum-machine-learning
+
 Batch of tweets: 
 
 
