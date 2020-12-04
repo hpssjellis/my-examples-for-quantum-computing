@@ -1,7 +1,7 @@
 
 
 
-
+Tom Bromley suggested looking at this file for quantum optimizers https://pennylane.readthedocs.io/en/stable/code/api/pennylane.QNGOptimizer.html
 
 
 
